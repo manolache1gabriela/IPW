@@ -1,5 +1,5 @@
 <template>
-	<div class="w-full h-[80%] flex">
+	<div class="w-full h-[80%] flex mt-[5%]">
 		<div class="w-3/4 bg-hero-image bg-cover bg-bottom">
 			<div
 				class="w-full h-full bg-black bg-opacity-80 flex justify-center items-center">

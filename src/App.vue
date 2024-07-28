@@ -7,7 +7,10 @@
 </script>
 
 <template>
-	<div class="w-full h-screen font-rubik relative">
+	<div class="w-full h-full font-rubik relative">
+		<div
+			class="absolute top-[-10%]"
+			id="home"></div>
 		<Navbar />
 		<Home />
 		<ProjectPage />

@@ -1,9 +1,6 @@
 <template>
 	<div
-		class="absolute top-0"
-		id="home"></div>
-	<div
-		class="w-full h-[10%] sticky top-0 px-10 py-5 bg-white flex items-center justify-between">
+		class="w-full h-[10%] fixed z-10 top-0 px-10 py-5 bg-white flex items-center justify-between">
 		<div class="h-full">
 			<a
 				class="h-full"

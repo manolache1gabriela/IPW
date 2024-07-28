@@ -1,7 +1,8 @@
 <template>
-	<div
-		class="w-full h-full flex"
-		id="project">
+	<div class="w-full h-[90%] flex relative">
+		<div
+			class="absolute top-[-12%]"
+			id="project"></div>
 		<div class="w-1/3 h-full bg-project-page bg-cover bg-center">
 			<div class="bg-black opacity-40 w-full h-full"></div>
 		</div>
