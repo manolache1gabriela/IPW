@@ -16,7 +16,7 @@
 					</p>
 					<a
 						href="#project"
-						class="text-text bg-secondary hover:bg-primary hover:text-white text-xl px-8 py-4">
+						class="uppercase font-semibold bg-secondary hover:bg-primary text-white text-xl px-14 py-3">
 						View our work
 					</a>
 				</div>
@@ -60,8 +60,8 @@
 		<h2 class="text-4xl text-text">Get a Quote For Your Project</h2>
 		<a
 			href="#contact"
-			class="text-secondary font-semibold border-4 border-secondary hover:border-primary hover:text-text text-xl px-8 py-4">
-			View our work
+			class="text-secondary uppercase font-semibold border-4 border-secondary hover:border-primary hover:text-text text-xl px-14 py-3">
+			Free Quote
 		</a>
 	</div>
 </template>
