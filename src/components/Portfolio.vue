@@ -4,7 +4,7 @@
 
 <template>
 	<div
-		class="w-full py-12 bg-slate-200 flex flex-col justify-center items-center gap-8 relative">
+		class="w-full min-h-[95%] py-12 bg-white flex flex-col justify-center items-center gap-8 relative">
 		<div
 			class="absolute top-[-6%]"
 			id="portfolio"></div>

@@ -1,5 +1,5 @@
 <template>
-	<div class="w-full h-[80%] flex mt-[5%]">
+	<div class="w-full h-[90%] flex mt-[5%]">
 		<div class="w-3/4 bg-hero-image bg-cover bg-bottom">
 			<div
 				class="w-full h-full bg-black bg-opacity-80 flex justify-center items-center">
@@ -56,12 +56,13 @@
 			</div>
 		</div>
 	</div>
-	<div class="h-[10%] w-full flex justify-evenly items-center">
+	<!-- <div
+		class="h-[10%] w-full bg-secondary flex justify-evenly items-center">
 		<h2 class="text-4xl text-text">Get a Quote For Your Project</h2>
 		<a
 			href="#contact"
 			class="text-secondary uppercase font-semibold border-4 border-secondary hover:border-primary hover:text-text text-xl px-14 py-3">
 			Free Quote
 		</a>
-	</div>
+	</div> -->
 </template>
