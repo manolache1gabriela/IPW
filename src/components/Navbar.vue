@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="w-full h-[10%] fixed z-10 top-0 px-10 py-5 bg-white flex items-center justify-between shadow-sm">
+		class="w-full h-[10%] fixed z-20 top-0 px-10 py-5 bg-white flex items-center justify-between shadow-sm">
 		<div class="h-full">
 			<a
 				class="h-full"
@@ -27,5 +27,5 @@
 <script setup>
 	import { ref } from 'vue';
 
-	const links = ref(['Project', 'Portfolio', 'Services', 'Contact', 'Home']);
+	const links = ref(['Home', 'Project', 'Gallery', 'Contact']);
 </script>

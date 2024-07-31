@@ -3,13 +3,11 @@
 		<div
 			class="absolute top-[-11.1%]"
 			id="project"></div>
-		<div class="w-1/3 h-full bg-project-page bg-cover bg-center">
-			<div class="bg-black opacity-40 w-full h-full"></div>
-		</div>
+		<div class="w-1/3 h-full bg-project-page bg-cover bg-center"></div>
 		<div class="flex flex-col items-center w-2/3 h-full">
 			<div
 				class="w-full h-4/5 bg-white flex flex-col items-start justify-center gap-14 text-text p-52">
-				<h2 class="text-5xl capitalize font-semibold">
+				<h2 class="text-5xl capitalize font-semibold drop-shadow">
 					<span class="border-b-4 border-secondary pb-3">No</span>
 					project too big or too small
 				</h2>

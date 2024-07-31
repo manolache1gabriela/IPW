@@ -16,7 +16,7 @@
 		<Navbar />
 		<Home />
 		<ProjectPage />
-		<Portfolio />
+		<!-- <Portfolio /> -->
 		<Gallery />
 		<Contact />
 		<Footer />

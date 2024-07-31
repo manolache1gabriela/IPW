@@ -24,7 +24,7 @@
 		</div>
 		<div
 			class="w-1/4 bg-secondary flex flex-col justify-between items-start px-16 py-28">
-			<h2 class="text-text text-5xl font-semibold">Our Services</h2>
+			<h2 class="text-text text-5xl font-semibold drop-shadow">Our Services</h2>
 			<div class="flex justify-center items-center gap-6">
 				<img src="../assets/svg1.svg" />
 				<div class="flex flex-col justify-center items-start gap-2">
