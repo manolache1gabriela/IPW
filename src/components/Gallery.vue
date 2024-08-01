@@ -3,7 +3,7 @@
 		class="w-full min-h-[90%] px-5 md:px-10 xl:p-20 flex justify-center items-center relative flex-col gap-8">
 		<div
 			class="absolute top-[-4%]"
-			id="gallery"></div>
+			id="portfolio"></div>
 		<h3 class="text-4xl font-semibold capitalize drop-shadow">
 			Latest projects
 		</h3>
@@ -16,15 +16,16 @@
 				:key="index"
 				class="relative">
 				<div
-					class="bg-black opacity-0 hover:opacity-60 w-full h-full z-10 absolute flex justify-center items-center">
+					class="bg-black opacity-0 hover:opacity-60 w-full h-full z-10 absolute flex justify-center items-center cursor-pointer"
+					@click="openModal(project.id)">
 					<img
 						src="/src/assets/magnifier.svg"
 						alt="magnifier icon"
-						class="w-16 cursor-pointer" />
+						class="w-16" />
 				</div>
 				<img
 					class="rounded aspect-auto"
-					:src="projects[index].image"
+					:src="projects[index].thumbnail"
 					alt="project image" />
 			</div>
 		</div>
@@ -34,9 +35,18 @@
 			class="text-secondary uppercase font-semibold border-4 border-secondary hover:border-primary hover:text-text text-xl px-14 py-3">
 			{{ showAll ? 'view less' : 'view all' }}
 		</button>
+		<ProjectModal
+			@modal-closed="
+				showModal = false;
+				currentProject = null;
+			"
+			:showModal="showModal"
+			:currentProject="currentProject"
+			:projects="projects" />
 	</div>
 </template>
 <script setup>
+	import ProjectModal from './ProjectModal.vue';
 	import { ref } from 'vue';
 	import projects from '../assets/gallery-projects.json';
 
@@ -48,5 +58,10 @@
 		}
 	}
 
-	console.log(projects.length);
+	let showModal = ref(false);
+	let currentProject = ref(null);
+	function openModal(id) {
+		showModal.value = true;
+		currentProject.value = id;
+	}
 </script>

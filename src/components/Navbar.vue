@@ -27,5 +27,5 @@
 <script setup>
 	import { ref } from 'vue';
 
-	const links = ref(['Home', 'Project', 'Gallery', 'Contact']);
+	const links = ref(['Home', 'Project', 'Portfolio', 'Contact']);
 </script>

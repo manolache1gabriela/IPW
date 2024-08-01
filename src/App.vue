@@ -4,6 +4,7 @@
 	import Portfolio from './components/Portfolio.vue';
 	import Contact from './components/Contact.vue';
 	import Gallery from './components/Gallery.vue';
+
 	import Navbar from './components/Navbar.vue';
 	import Footer from './components/Footer.vue';
 </script>

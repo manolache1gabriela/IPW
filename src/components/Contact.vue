@@ -70,7 +70,7 @@
 			name: 'facebook icon',
 			src: '/src/assets/facebook.svg',
 			alt: 'facebook icon',
-			width: 6,
+			width: 8,
 			link: 'https://www.facebook.com/popa.ionutsiraluca',
 		},
 		{
