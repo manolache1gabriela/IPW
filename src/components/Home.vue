@@ -56,13 +56,4 @@
 			</div>
 		</div>
 	</div>
-	<!-- <div
-		class="h-[10%] w-full bg-secondary flex justify-evenly items-center">
-		<h2 class="text-4xl text-text">Get a Quote For Your Project</h2>
-		<a
-			href="#contact"
-			class="text-secondary uppercase font-semibold border-4 border-secondary hover:border-primary hover:text-text text-xl px-14 py-3">
-			Free Quote
-		</a>
-	</div> -->
 </template>

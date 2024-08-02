@@ -12,7 +12,7 @@
 					class="absolute z-40 top-0 right-0 w-8"
 					@click="closeModal">
 					<img
-						src="/src/assets/close.svg"
+						src="../assets/close.svg"
 						alt="close icon" />
 				</button>
 				<div class="w-full h-full flex justify-center items-center select-none">
@@ -34,7 +34,7 @@
 							:disabled="imageIndex < 1"
 							class="disabled:invisible">
 							<img
-								src="/src/assets/left.svg"
+								src="../assets/left.svg"
 								alt="arrow left"
 								class="w-8" />
 						</button>
@@ -44,7 +44,7 @@
 							class="disabled:invisible">
 							<img
 								class="w-8"
-								src="/src/assets/right.svg"
+								src="../assets/right.svg"
 								alt="arrow right" />
 						</button>
 					</div>

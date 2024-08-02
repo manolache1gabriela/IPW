@@ -19,7 +19,7 @@
 					class="bg-black opacity-0 hover:opacity-60 w-full h-full z-10 absolute flex justify-center items-center cursor-pointer"
 					@click="openModal(project.id)">
 					<img
-						src="/src/assets/magnifier.svg"
+						src="../assets/magnifier.svg"
 						alt="magnifier icon"
 						class="w-16" />
 				</div>

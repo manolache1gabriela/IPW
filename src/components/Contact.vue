@@ -68,21 +68,21 @@
 	const socialIcons = [
 		{
 			name: 'facebook icon',
-			src: '/src/assets/facebook.svg',
+			src: './assets/facebook.svg',
 			alt: 'facebook icon',
 			width: 8,
 			link: 'https://www.facebook.com/popa.ionutsiraluca',
 		},
 		{
 			name: 'whatsapp icon',
-			src: '/src/assets/whatsapp.svg',
+			src: './assets/whatsapp.svg',
 			alt: 'whatsapp icon',
 			width: 10,
 			link: "https://wa.me/741502544?text=I'm%20interested%20in%20your%20work.%20Call%20me!",
 		},
 		{
 			name: 'tik tok icon',
-			src: '/src/assets/tiktok.svg',
+			src: './assets/tiktok.svg',
 			alt: 'tik tok icon',
 			width: 9,
 			link: 'https://www.facebook.com/popa.ionutsiraluca',
@@ -91,7 +91,7 @@
 	const contactIcons = [
 		{
 			name: 'location icon',
-			src: '/src/assets/location.svg',
+			src: './assets/location.svg',
 			alt: 'location icon',
 			text: 'Hofstraat 17 Dessel',
 			width: 6,
@@ -99,7 +99,7 @@
 		},
 		{
 			name: 'phone icon',
-			src: '/src/assets/phone.svg',
+			src: './assets/phone.svg',
 			alt: 'phone icon',
 			text: '+32 467 86 46 50',
 			width: 6,
@@ -107,7 +107,7 @@
 		},
 		{
 			name: 'mail icon',
-			src: '/src/assets/mail.svg',
+			src: './assets/mail.svg',
 			alt: 'mail icon',
 			text: 'ionutp0126@gmail.com',
 			width: 7,

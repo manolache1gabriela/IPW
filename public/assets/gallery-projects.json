@@ -1,170 +1,170 @@
 [
 	{
-		"thumbnail": "./src/assets/gallery/IMG_1.jpg",
+		"thumbnail": "./assets/gallery/IMG_1.jpg",
 		"id": 1,
 		"title": "Lorem, ipsum dolor.",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, ex accusamus sapiente debitis omnis nulla obcaecati tenetur eaque dicta qui placeat quibusdam, praesentium laudantium exercitationem optio quis excepturi dolore assumenda maxime reiciendis hic! Accusamus veritatis, iusto est, rem omnis maxime impedit repudiandae possimus consectetur rerum, pariatur eveniet consequatur. At, deserunt?",
 		"images": [
-			"./src/assets/gallery/IMG_1.jpg",
-			"./src/assets/gallery/IMG_2.jpg",
-			"./src/assets/gallery/IMG_51.jpg",
-			"./src/assets/gallery/IMG_4.jpg"
+			"./assets/gallery/IMG_1.jpg",
+			"./assets/gallery/IMG_2.jpg",
+			"./assets/gallery/IMG_51.jpg",
+			"./assets/gallery/IMG_4.jpg"
 		]
 	},
 	{
-		"thumbnail": "./src/assets/gallery/IMG_2.jpg",
+		"thumbnail": "./assets/gallery/IMG_2.jpg",
 		"id": 2,
 		"title": "Lorem, ipsum dolor.",
 		"description": "work",
 		"images": [
-			"./src/assets/gallery/IMG_2.jpg",
-			"./src/assets/gallery/IMG_2.jpg",
-			"./src/assets/gallery/IMG_2.jpg",
-			"./src/assets/gallery/IMG_2.jpg"
+			"./assets/gallery/IMG_2.jpg",
+			"./assets/gallery/IMG_2.jpg",
+			"./assets/gallery/IMG_2.jpg",
+			"./assets/gallery/IMG_2.jpg"
 		]
 	},
 	{
-		"thumbnail": "./src/assets/gallery/IMG_3.jpg",
+		"thumbnail": "./assets/gallery/IMG_3.jpg",
 		"id": 3,
 		"title": "Lorem, ipsum dolor.",
 		"description": "work",
 		"images": [
-			"./src/assets/gallery/IMG_3.jpg",
-			"./src/assets/gallery/IMG_2.jpg",
-			"./src/assets/gallery/IMG_2.jpg",
-			"./src/assets/gallery/IMG_2.jpg"
+			"./assets/gallery/IMG_3.jpg",
+			"./assets/gallery/IMG_2.jpg",
+			"./assets/gallery/IMG_2.jpg",
+			"./assets/gallery/IMG_2.jpg"
 		]
 	},
 	{
-		"thumbnail": "./src/assets/gallery/IMG_4.jpg",
+		"thumbnail": "./assets/gallery/IMG_4.jpg",
 		"id": 4,
 		"title": "Lorem, ipsum dolor.",
 		"description": "work",
 		"images": [
-			"./src/assets/gallery/IMG_4.jpg",
-			"./src/assets/gallery/IMG_2.jpg",
-			"./src/assets/gallery/IMG_2.jpg",
-			"./src/assets/gallery/IMG_2.jpg"
+			"./assets/gallery/IMG_4.jpg",
+			"./assets/gallery/IMG_2.jpg",
+			"./assets/gallery/IMG_2.jpg",
+			"./assets/gallery/IMG_2.jpg"
 		]
 	},
 	{
-		"thumbnail": "./src/assets/gallery/IMG_5.jpg",
+		"thumbnail": "./assets/gallery/IMG_5.jpg",
 		"id": 1,
 		"title": "Lorem, ipsum dolor.",
 		"description": "work",
 		"images": [
-			"./src/assets/gallery/IMG_1.jpg",
-			"./src/assets/gallery/IMG_2.jpg",
-			"./src/assets/gallery/IMG_2.jpg",
-			"./src/assets/gallery/IMG_2.jpg"
+			"./assets/gallery/IMG_1.jpg",
+			"./assets/gallery/IMG_2.jpg",
+			"./assets/gallery/IMG_2.jpg",
+			"./assets/gallery/IMG_2.jpg"
 		]
 	},
 	{
-		"thumbnail": "./src/assets/gallery/IMG_6.jpg",
+		"thumbnail": "./assets/gallery/IMG_6.jpg",
 		"id": 1,
 		"title": "Lorem, ipsum dolor.",
 		"description": "work",
 		"images": [
-			"./src/assets/gallery/IMG_1.jpg",
-			"./src/assets/gallery/IMG_2.jpg",
-			"./src/assets/gallery/IMG_2.jpg",
-			"./src/assets/gallery/IMG_2.jpg"
+			"./assets/gallery/IMG_1.jpg",
+			"./assets/gallery/IMG_2.jpg",
+			"./assets/gallery/IMG_2.jpg",
+			"./assets/gallery/IMG_2.jpg"
 		]
 	},
 	{
-		"thumbnail": "./src/assets/gallery/IMG_50.jpg",
+		"thumbnail": "./assets/gallery/IMG_50.jpg",
 		"id": 1,
 		"title": "Lorem, ipsum dolor.",
 		"description": "work",
 		"images": [
-			"./src/assets/gallery/IMG_1.jpg",
-			"./src/assets/gallery/IMG_2.jpg",
-			"./src/assets/gallery/IMG_2.jpg",
-			"./src/assets/gallery/IMG_2.jpg"
+			"./assets/gallery/IMG_1.jpg",
+			"./assets/gallery/IMG_2.jpg",
+			"./assets/gallery/IMG_2.jpg",
+			"./assets/gallery/IMG_2.jpg"
 		]
 	},
 	{
-		"thumbnail": "./src/assets/gallery/IMG_8.jpg",
+		"thumbnail": "./assets/gallery/IMG_8.jpg",
 		"id": 1,
 		"title": "Lorem, ipsum dolor.",
 		"description": "work",
 		"images": [
-			"./src/assets/gallery/IMG_1.jpg",
-			"./src/assets/gallery/IMG_2.jpg",
-			"./src/assets/gallery/IMG_2.jpg",
-			"./src/assets/gallery/IMG_2.jpg"
+			"./assets/gallery/IMG_1.jpg",
+			"./assets/gallery/IMG_2.jpg",
+			"./assets/gallery/IMG_2.jpg",
+			"./assets/gallery/IMG_2.jpg"
 		]
 	},
 	{
-		"thumbnail": "./src/assets/gallery/IMG_27.jpg",
+		"thumbnail": "./assets/gallery/IMG_27.jpg",
 		"id": 1,
 		"title": "Lorem, ipsum dolor.",
 		"description": "work",
 		"images": [
-			"./src/assets/gallery/IMG_1.jpg",
-			"./src/assets/gallery/IMG_2.jpg",
-			"./src/assets/gallery/IMG_2.jpg",
-			"./src/assets/gallery/IMG_2.jpg"
+			"./assets/gallery/IMG_1.jpg",
+			"./assets/gallery/IMG_2.jpg",
+			"./assets/gallery/IMG_2.jpg",
+			"./assets/gallery/IMG_2.jpg"
 		]
 	},
 	{
-		"thumbnail": "./src/assets/gallery/IMG_5.jpg",
+		"thumbnail": "./assets/gallery/IMG_5.jpg",
 		"id": 1,
 		"title": "Lorem, ipsum dolor.",
 		"description": "work",
 		"images": [
-			"./src/assets/gallery/IMG_1.jpg",
-			"./src/assets/gallery/IMG_2.jpg",
-			"./src/assets/gallery/IMG_2.jpg",
-			"./src/assets/gallery/IMG_2.jpg"
+			"./assets/gallery/IMG_1.jpg",
+			"./assets/gallery/IMG_2.jpg",
+			"./assets/gallery/IMG_2.jpg",
+			"./assets/gallery/IMG_2.jpg"
 		]
 	},
 	{
-		"thumbnail": "./src/assets/gallery/IMG_6.jpg",
+		"thumbnail": "./assets/gallery/IMG_6.jpg",
 		"id": 1,
 		"title": "Lorem, ipsum dolor.",
 		"description": "work",
 		"images": [
-			"./src/assets/gallery/IMG_1.jpg",
-			"./src/assets/gallery/IMG_2.jpg",
-			"./src/assets/gallery/IMG_2.jpg",
-			"./src/assets/gallery/IMG_2.jpg"
+			"./assets/gallery/IMG_1.jpg",
+			"./assets/gallery/IMG_2.jpg",
+			"./assets/gallery/IMG_2.jpg",
+			"./assets/gallery/IMG_2.jpg"
 		]
 	},
 	{
-		"thumbnail": "./src/assets/gallery/IMG_50.jpg",
+		"thumbnail": "./assets/gallery/IMG_50.jpg",
 		"id": 1,
 		"title": "Lorem, ipsum dolor.",
 		"description": "work",
 		"images": [
-			"./src/assets/gallery/IMG_1.jpg",
-			"./src/assets/gallery/IMG_2.jpg",
-			"./src/assets/gallery/IMG_2.jpg",
-			"./src/assets/gallery/IMG_2.jpg"
+			"./assets/gallery/IMG_1.jpg",
+			"./assets/gallery/IMG_2.jpg",
+			"./assets/gallery/IMG_2.jpg",
+			"./assets/gallery/IMG_2.jpg"
 		]
 	},
 	{
-		"thumbnail": "./src/assets/gallery/IMG_8.jpg",
+		"thumbnail": "./assets/gallery/IMG_8.jpg",
 		"id": 1,
 		"title": "Lorem, ipsum dolor.",
 		"description": "work",
 		"images": [
-			"./src/assets/gallery/IMG_1.jpg",
-			"./src/assets/gallery/IMG_2.jpg",
-			"./src/assets/gallery/IMG_2.jpg",
-			"./src/assets/gallery/IMG_2.jpg"
+			"./assets/gallery/IMG_1.jpg",
+			"./assets/gallery/IMG_2.jpg",
+			"./assets/gallery/IMG_2.jpg",
+			"./assets/gallery/IMG_2.jpg"
 		]
 	},
 	{
-		"thumbnail": "./src/assets/gallery/IMG_9.jpg",
+		"thumbnail": "./assets/gallery/IMG_9.jpg",
 		"id": 4,
 		"title": "Lorem, ipsum dolor.",
 		"description": "work",
 		"images": [
-			"./src/assets/gallery/IMG_1.jpg",
-			"./src/assets/gallery/IMG_2.jpg",
-			"./src/assets/gallery/IMG_2.jpg",
-			"./src/assets/gallery/IMG_2.jpg"
+			"./assets/gallery/IMG_1.jpg",
+			"./assets/gallery/IMG_2.jpg",
+			"./assets/gallery/IMG_2.jpg",
+			"./assets/gallery/IMG_2.jpg"
 		]
 	}
 ]
