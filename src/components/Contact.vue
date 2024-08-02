@@ -50,7 +50,7 @@
 					:key="index"
 					class="flex items-center justify-start gap-6">
 					<img
-						:class="'w-' + icon.width"
+						class="w-[35px]"
 						:src="icon.src"
 						:alt="icon.alt" />
 					<a
