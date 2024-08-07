@@ -3,12 +3,13 @@
 		class="w-full h-[10%] fixed z-20 top-0 px-10 py-1 bg-white flex items-center justify-between shadow-md">
 		<div class="h-full">
 			<a
-				class="h-full"
+				class="h-full flex items-center justify-center gap-4 text-gray-400 hover:text-secondary"
 				href="/">
 				<img
 					class="h-full grayscale hover:filter-none"
 					src="../assets/logo1.svg"
 					alt="company logo" />
+				<h1 class="text-3xl font-semibold">Ionut Popa Werk</h1>
 			</a>
 		</div>
 		<div class="h-full flex items-center">

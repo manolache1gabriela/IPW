@@ -9,6 +9,7 @@ export default {
 			},
 			backgroundImage: {
 				'hero-image': "url('./assets/excavator.jpg')",
+				'logo-image': "url('./assets/logo1.svg')",
 				'project-page': "url('./assets/project-page.jpg')",
 				'open-button': "url('./assets/open-details.svg')",
 			},
@@ -23,5 +24,5 @@ export default {
 			},
 		},
 	},
-	plugins: [],
+	plugins: [require('tailwindcss-animated')],
 };

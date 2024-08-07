@@ -44,7 +44,7 @@
 						:alt="icon.alt" />
 				</a>
 			</div>
-			<div class="w-full h-[80%] bg-white py-20 px-28 flex flex-col gap-8">
+			<div class="w-full h-[80%] bg-white pt-20 pl-28 flex flex-col gap-8">
 				<div
 					v-for="(icon, index) in contactIcons"
 					:key="index"
@@ -60,6 +60,8 @@
 						>{{ icon.text }}</a
 					>
 				</div>
+				<div
+					class="w-full h-full bg-logo-image bg-contain bg-no-repeat self-end bg-right"></div>
 			</div>
 		</div>
 	</div>
