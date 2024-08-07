@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-	content: ['./index.html', '../**/*.{vue,js,ts,jsx,tsx}'],
+	content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
 	theme: {
 		extend: {
 			boxShadow: {
@@ -10,6 +10,7 @@ export default {
 			backgroundImage: {
 				'hero-image': "url('./assets/excavator.jpg')",
 				'project-page': "url('./assets/project-page.jpg')",
+				'open-button': "url('./assets/open-details.svg')",
 			},
 			colors: {
 				primary: '#7E9CA0',

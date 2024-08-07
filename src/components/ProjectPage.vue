@@ -28,11 +28,13 @@
 						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque,
 						non ipsam veritatis ipsum praesentium dolores.
 					</p>
-					<a
-						href="#contact"
-						class="text-secondary w-fit h-fit uppercase font-semibold border-4 border-secondary hover:border-primary hover:text-text text-xl px-14 py-3">
-						Learn more
-					</a>
+					<button class="w-fit h-fit">
+						<a
+							href="#contact"
+							class="text-secondary uppercase font-semibold border-4 border-secondary hover:border-primary hover:text-text text-xl px-14 py-3">
+							Learn more
+						</a>
+					</button>
 				</div>
 			</div>
 			<div class="w-full h-1/5 bg-secondary flex justify-center">

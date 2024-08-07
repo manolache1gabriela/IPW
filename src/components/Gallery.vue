@@ -54,7 +54,7 @@
 	function viewAllPhotos() {
 		showAll.value = !showAll.value;
 		if (!showAll.value) {
-			window.location = '#gallery';
+			window.location = '#portfolio';
 		}
 	}
 

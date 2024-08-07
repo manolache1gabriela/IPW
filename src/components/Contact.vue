@@ -39,7 +39,7 @@
 					:href="icon.link"
 					target="_blank">
 					<img
-						:class="'w-' + icon.width"
+						class="w-10"
 						:src="icon.src"
 						:alt="icon.alt" />
 				</a>
@@ -50,7 +50,7 @@
 					:key="index"
 					class="flex items-center justify-start gap-6">
 					<img
-						:style="`width: ${icon.width};`"
+						:class="'w-' + icon.width"
 						:src="icon.src"
 						:alt="icon.alt" />
 					<a
@@ -70,21 +70,24 @@
 			name: 'facebook icon',
 			src: './assets/facebook.svg',
 			alt: 'facebook icon',
-			width: '30px',
+			link: 'https://www.facebook.com/popa.ionutsiraluca',
+		},
+		{
+			name: 'instagram icon',
+			src: './assets/instagram.svg',
+			alt: 'instagram icon',
 			link: 'https://www.facebook.com/popa.ionutsiraluca',
 		},
 		{
 			name: 'whatsapp icon',
 			src: './assets/whatsapp.svg',
 			alt: 'whatsapp icon',
-			width: '35px',
 			link: "https://wa.me/741502544?text=I'm%20interested%20in%20your%20work.%20Call%20me!",
 		},
 		{
 			name: 'tik tok icon',
 			src: './assets/tiktok.svg',
 			alt: 'tik tok icon',
-			width: '35px',
 			link: 'https://www.facebook.com/popa.ionutsiraluca',
 		},
 	];
@@ -110,7 +113,7 @@
 			src: './assets/mail.svg',
 			alt: 'mail icon',
 			text: 'ionutp0126@gmail.com',
-			width: 7,
+			width: 8,
 			link: 'mailto:ionutp0126@gmail.com',
 		},
 	];

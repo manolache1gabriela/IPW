@@ -1,12 +1,11 @@
 <script setup>
 	import Home from './components/Home.vue';
 	import ProjectPage from './components/ProjectPage.vue';
-	import Portfolio from './components/Portfolio.vue';
+	// import Portfolio from './components/Portfolio.vue';
 	import Contact from './components/Contact.vue';
 	import Gallery from './components/Gallery.vue';
-
+	import Services from './components/Services.vue';
 	import Navbar from './components/Navbar.vue';
-	import Footer from './components/Footer.vue';
 </script>
 
 <template>
@@ -19,7 +18,7 @@
 		<ProjectPage />
 		<!-- <Portfolio /> -->
 		<Gallery />
+		<Services />
 		<Contact />
-		<Footer />
 	</div>
 </template>
