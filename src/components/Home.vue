@@ -2,7 +2,7 @@
 	<div class="w-full h-[90%] flex mt-[5%]">
 		<div class="w-3/4 bg-hero-image bg-cover bg-bottom">
 			<div
-				class="w-full h-full bg-gradient-to-r from-black/90 to-secondary/100 from-80% flex justify-center items-center">
+				class="w-full h-full bg-black bg-opacity-80 flex justify-center items-center">
 				<div
 					class="flex flex-col justify-center items-start gap-10 w-4/5 h-2/3 px-4">
 					<h1
@@ -23,8 +23,7 @@
 			</div>
 		</div>
 		<div
-			class="w-1/4 bg-secondary flex flex-col justify-between items-start px-16 py-28"
-			id="service">
+			class="w-1/4 bg-secondary flex flex-col justify-between items-start px-16 py-28">
 			<h2
 				class="text-text text-5xl font-semibold drop-shadow animate-fade-left animate-duration-500 animate-delay-500 animate-ease-in">
 				Our Services
@@ -64,10 +63,3 @@
 		</div>
 	</div>
 </template>
-<style>
-	#service {
-		box-shadow: rgba(47, 181, 178) 0px 0px 400px,
-			rgba(47, 181, 178) 0px -12px 200px, rgba(47, 181, 178) 0px 4px 200px,
-			rgba(47, 181, 178) 0px 12px 200px, rgba(47, 181, 178) 0px -3px 200px;
-	}
-</style>
