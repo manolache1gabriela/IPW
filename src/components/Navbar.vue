@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="w-full h-[10%] fixed z-20 top-0 px-2 md:px-10 py-1 bg-white flex items-center justify-between shadow-md">
+		class="w-full h-[10%] md:fixed z-20 top-0 px-2 md:px-10 py-1 bg-white flex items-center justify-between shadow-md">
 		<div class="h-full">
 			<a
 				class="h-full flex items-center justify-center gap-4 text-gray-400 hover:text-secondary"
