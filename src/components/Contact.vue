@@ -1,50 +1,54 @@
 <template>
-	<div class="w-full h-[90%] flex relative">
+	<div class="w-full min-h-fit md:h-[90%] md:flex relative">
 		<div
 			class="absolute top-[-11.1%]"
 			id="contact"></div>
-		<div class="w-1/2 bg-secondary flex flex-col justify-center gap-10 px-40">
+		<div
+			class="w-full md:w-1/2 bg-secondary flex flex-col justify-center gap-10 py-5 md:py-0 px-5 md:px-40">
 			<h4 class="text-white text-5xl font-semibold drop-shadow">Contact us</h4>
 			<div class="w-16 h-2 bg-white"></div>
 			<form
 				action="post"
-				class="h-1/3 grid grid-cols-2 grid-rows-4 gap-6">
+				class="h-1/3 flex flex-col md:grid grid-cols-2 grid-rows-4 gap-4 md:gap-6">
 				<input
 					type="text"
 					placeholder="Name"
-					class="col-span-1 row-span-1 px-4 py-2" />
+					class="col-span-1 w-full row-span-1 px-4 py-2" />
 				<input
 					type="email"
 					placeholder="Email"
-					class="col-span-1 row-span-1 px-4 py-2" />
+					class="col-span-1 w-full row-span-1 px-4 py-2" />
 				<textarea
 					name="message"
 					id="email-body"
 					cols="30"
 					rows="10"
 					placeholder="Message"
-					class="col-span-2 row-span-2 px-4 py-4"></textarea>
+					class="col-span-2 w-full row-span-2 px-4 py-4"></textarea>
 				<button
-					class="mt-4 w-fit text-white uppercase font-semibold border-4 border-white hover:border-text hover:text-text text-lg col-start-2 py-2 px-8 place-self-end"
+					class="mt-4 w-fit text-white uppercase font-semibold border-4 border-white hover:border-text hover:text-text text-md md:text-lg col-start-2 py-2 px-4 md:px-8 md:place-self-end"
 					type="submit">
 					Send message
 				</button>
 			</form>
 		</div>
-		<div class="w-1/2 bg-text flex flex-col justify-center items-center">
-			<div class="w-1/2 h-[20%] flex justify-evenly items-center">
+		<div
+			class="w-full md:w-1/2 bg-text flex flex-col justify-center items-center">
+			<div
+				class="w-full md:w-1/2 py-5 md:py-0 md:h-[20%] flex justify-evenly items-center">
 				<a
 					v-for="(icon, index) in socialIcons"
 					:key="index"
 					:href="icon.link"
 					target="_blank">
 					<img
-						class="w-10"
+						class="w-7 md:w-10"
 						:src="icon.src"
 						:alt="icon.alt" />
 				</a>
 			</div>
-			<div class="w-full h-[80%] bg-white pt-20 pl-28 flex flex-col gap-8">
+			<div
+				class="w-full md:h-[80%] bg-white md:pt-20 px-5 py-5 md:pl-28 flex flex-col items-start gap-2 md:gap-8">
 				<div
 					v-for="(icon, index) in contactIcons"
 					:key="index"
@@ -61,7 +65,7 @@
 					>
 				</div>
 				<div
-					class="w-full h-full bg-logo-image bg-contain bg-no-repeat self-end bg-right"></div>
+					class="w-48 h-48 bg-logo-image bg-contain bg-no-repeat self-center md:self-end bg-right"></div>
 			</div>
 		</div>
 	</div>

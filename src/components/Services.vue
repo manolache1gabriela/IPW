@@ -1,19 +1,20 @@
 <template>
-	<div class="w-full h-[90%] relative">
+	<div class="w-full min-h-fit md:h-[90%] relative my-5">
 		<div
 			class="absolute top-[-11.1%]"
 			id="services"></div>
-		<div class="w-full h-full flex justify-center items-center">
-			<div class="w-2/3 h-full flex justify-evenly items-center py-[8%] gap-10">
+		<div class="w-full h-full md:flex justify-center items-center">
+			<div
+				class="w-full md:w-2/3 h-full md:flex justify-evenly items-center py-[8%] gap-10">
 				<div
-					class="w-1/3 h-full flex flex-col items-start justify-start gap-10">
-					<div class="flex flex-col justify-center gap-10">
-						<h4 class="text-5xl font-semibold">
+					class="w-full md:w-1/3 md:h-full px-5 py-5 flex flex-col items-start justify-start gap-5 md:gap-10">
+					<div class="flex flex-col justify-center gap-5 md:gap-10">
+						<h4 class="text-3xl md:text-5xl font-semibold">
 							Let's build something together
 						</h4>
 						<div class="w-16 h-2 bg-secondary"></div>
 					</div>
-					<p class="text-lg font-light">
+					<p class="text-md md:text-lg font-light">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, iste
 						provident dolores, suscipit obcaecati incidunt dolorem harum
 						nostrum, nisi perferendis.
@@ -21,13 +22,13 @@
 					<button class="w-fit">
 						<a
 							href="#contact"
-							class="text-secondary uppercase font-semibold border-4 border-secondary hover:border-primary hover:text-text text-xl px-12 py-2">
+							class="text-secondary uppercase font-semibold border-4 border-secondary hover:border-primary hover:text-text text-lg md:text-xl px-6 md:px-12 py-1 md:py-2">
 							get in touch
 						</a>
 					</button>
 				</div>
 				<div
-					class="w-2/3 h-full bg-gray-100 px-10 py-8 flex flex-col justify-evenly">
+					class="w-full md:w-2/3 min-h-fit md:h-full bg-gray-100 px-10 py-8 flex flex-col justify-evenly">
 					<details
 						v-for="(service, index) in services"
 						:key="index"
@@ -35,11 +36,11 @@
 						<summary
 							class="list-none cursor-pointer flex items-center justify-between font-semibold text-lg mb-4">
 							{{ service.summary }}
-							<div class="w-6 h-6 rounded-full bg-open-button"></div>
+							<div class="w-6 h-6 rounded-full ml-1 bg-open-button"></div>
 						</summary>
-						<ul class="font-light flex justify-evenly flex-wrap">
+						<ul class="font-light flex justify-between flex-wrap">
 							<li
-								class="list-disc"
+								class="list-disc ml-3"
 								v-for="(detail, index) in service.details"
 								:key="index">
 								{{ detail }}
