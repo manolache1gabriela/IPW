@@ -24,7 +24,7 @@
 			</div>
 		</div>
 		<div
-			class="w-full lg:w-1/4 bg-secondary flex flex-col justify-between lg:justify-evenly items-start md:items-center lg:items-start px-5 lg:px-16 gap-5 py-5 lg:py-28">
+			class="w-full lg:w-1/4 bg-secondary flex flex-col justify-between lg:justify-evenly items-start md:items-center lg:items-start px-5 lg:px-16 gap-5 py-5 xl:py-28">
 			<h2
 				class="text-text text-2xl md:text-3xl lg:text-5xl font-semibold drop-shadow animate-fade-left animate-duration-500 animate-ease-in">
 				Our Services
@@ -34,7 +34,7 @@
 				<div
 					v-for="(constructionIcon, index) in constructionIcons"
 					:key="index"
-					class="flex w-full justify-center items-center gap-6 md:gap-3 lg:gap-6 animate-fade-left animate-delay-1000 animate-duration-500 animate-ease-in"
+					class="flex w-full justify-center mt-2 md:mt-0 items-center gap-6 md:gap-3 lg:gap-6 animate-fade-left animate-delay-1000 animate-duration-500 animate-ease-in"
 					:class="`animate-delay-[${constructionIcon.delay}ms]`">
 					<img :src="constructionIcon.path" />
 					<div class="flex flex-col justify-center items-start gap-2">

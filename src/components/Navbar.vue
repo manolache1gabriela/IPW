@@ -25,12 +25,16 @@
 				</li>
 			</ul>
 		</div>
-		<div class="md:hidden">-</div>
+		<div class="md:hidden w-8">
+			<img
+				src="../assets/menu.svg"
+				alt="menu icon" />
+		</div>
 	</div>
 </template>
 
 <script setup>
 	import { ref } from 'vue';
 
-	const links = ref(['Home', 'Project', 'Portfolio', 'Services', 'Contact']);
+	const links = ref(['Home', 'Portfolio', 'Project', 'Services', 'Contact']);
 </script>

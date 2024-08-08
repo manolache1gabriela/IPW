@@ -15,9 +15,9 @@
 			id="home"></div>
 		<Navbar />
 		<Home />
-		<ProjectPage />
 		<!-- <Portfolio /> -->
 		<Gallery />
+		<ProjectPage />
 		<Services />
 		<Contact />
 	</div>
