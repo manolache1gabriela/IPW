@@ -3,11 +3,11 @@
 		v-show="currentProject"
 		class="absolute top-0 left-0 w-full h-full flex justify-center items-center">
 		<dialog
-			class="w-3/4 h-3/4 z-10 backdrop:bg-black backdrop:opacity-80"
+			class="w-full md:w-3/4 h-3/4 z-10 backdrop:bg-black backdrop:opacity-80"
 			ref="dialog">
 			<div
 				v-if="currentProject"
-				class="flex w-full h-full justify-center items-center relative">
+				class="md:flex w-full h-full justify-center items-center relative">
 				<button
 					class="absolute z-40 top-0 right-0 w-8"
 					@click="closeModal">
@@ -15,19 +15,22 @@
 						src="../assets/close.svg"
 						alt="close icon" />
 				</button>
-				<div class="w-full h-full flex justify-center items-center select-none">
+				<div
+					class="w-full h-1/2 md:h-full md:flex justify-center items-center select-none">
 					<div
 						class="w-full h-full bg-cover bg-center"
 						:style="`background-image: url('${currentProject.images[imageIndex]}')`"></div>
 				</div>
 				<div
-					class="w-2/5 text-center p-8 text-text font-light flex flex-col gap-6 items-center">
-					<h1 class="text-secondary text-4xl font-semibold">
-						{{ currentProject.title }}
-					</h1>
-					<p>
-						{{ currentProject.description }}
-					</p>
+					class="w-full md:w-2/5 max-h-[40vh] overflow-y-scroll text-center py-3 md:p-8 text-text font-light flex flex-col-reverse md:flex-col gap-6 items-center">
+					<div class="flex flex-col justify-center items-center gap-4">
+						<h1 class="text-secondary text-lg md:text-4xl font-semibold">
+							{{ currentProject.title }}
+						</h1>
+						<p class="px-3 text-justify">
+							{{ currentProject.description }}
+						</p>
+					</div>
 					<div class="w-full flex justify-evenly items-center">
 						<button
 							@click="changeImage('minus')"
@@ -36,14 +39,14 @@
 							<img
 								src="../assets/left.svg"
 								alt="arrow left"
-								class="w-8" />
+								class="w-6 md:w-8" />
 						</button>
 						<button
 							@click="changeImage('plus')"
 							:disabled="imageIndex === currentProject.images.length - 1"
 							class="disabled:invisible">
 							<img
-								class="w-8"
+								class="w-6 md:w-8"
 								src="../assets/right.svg"
 								alt="arrow right" />
 						</button>

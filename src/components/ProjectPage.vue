@@ -1,17 +1,19 @@
 <template>
-	<div class="w-full h-[90%] flex relative">
+	<div class="w-full md:h-[90%] md:flex justify-center items-center relative">
 		<div
 			class="absolute top-[-11.1%]"
 			id="project"></div>
-		<div class="w-1/3 h-full bg-project-page bg-cover bg-center"></div>
-		<div class="flex flex-col items-center w-2/3 h-full">
+		<div
+			class="w-full md:w-1/3 min-h-[50vh] md:h-full bg-project-page bg-cover bg-center"></div>
+		<div class="flex flex-col items-center md:w-2/3 h-full">
 			<div
-				class="w-full h-4/5 bg-white flex flex-col items-start justify-center gap-14 text-text p-52">
-				<h2 class="text-5xl capitalize font-semibold drop-shadow">
-					<span class="border-b-4 border-secondary pb-3">No</span>
+				class="w-full md:h-4/5 bg-white flex flex-col items-start justify-center gap-5 md:gap-14 text-text py-5 px-4 md:p-52">
+				<h2 class="text-3xl md:text-5xl capitalize font-semibold drop-shadow">
+					<span class="md:border-b-4 border-secondary pb-3">No</span>
 					project too big or too small
 				</h2>
-				<div class="grid grid-cols-2 gap-14 text-lg font-light">
+				<div
+					class="flex flex-col gap-5 md:grid grid-cols-2 md:gap-14 text-lg font-light">
 					<p>
 						Lorem ipsum dolor sit amet consectetur, adipisicing elit.
 						Accusantium impedit esse tempora est pariatur cupiditate perferendis
@@ -31,7 +33,7 @@
 					<button class="w-fit h-fit">
 						<a
 							href="#contact"
-							class="text-secondary uppercase font-semibold border-4 border-secondary hover:border-primary hover:text-text text-xl px-14 py-3">
+							class="text-secondary uppercase font-semibold border-4 border-secondary hover:border-primary hover:text-text text-xl px-7 md:px-14 py-2 md:py-3">
 							Learn more
 						</a>
 					</button>
@@ -39,14 +41,18 @@
 			</div>
 			<div class="w-full h-1/5 bg-secondary flex justify-center">
 				<div
-					class="w-1/2 text-text flex flex-col items-center justify-center gap-3">
-					<h2 class="text-5xl font-semibold">12</h2>
-					<h4 class="font-semibold uppercase">Years Established</h4>
+					class="w-1/2 text-text flex flex-col items-center justify-between md:justify-center gap-3 py-2">
+					<h2 class="text-3xl md:text-5xl font-semibold">12</h2>
+					<h4 class="text-md md:text-base text-center font-semibold uppercase">
+						Years Established
+					</h4>
 				</div>
 				<div
-					class="w-1/2 bg-text text-white flex flex-col items-center justify-center gap-3">
-					<h2 class="text-5xl font-semibold">250</h2>
-					<h4 class="font-semibold uppercase">Completed projects</h4>
+					class="w-1/2 bg-text text-white flex flex-col items-center justify-between md:justify-center gap-3 py-2">
+					<h2 class="text-3xl md:text-5xl font-semibold">250</h2>
+					<h4 class="text-md md:text-base text-center font-semibold uppercase">
+						Completed projects
+					</h4>
 				</div>
 			</div>
 		</div>
