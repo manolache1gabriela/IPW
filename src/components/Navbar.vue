@@ -9,13 +9,16 @@
 					class="h-full grayscale hover:filter-none"
 					src="../assets/logo1.svg"
 					alt="company logo" />
-				<h1 class="text-xl md:text-3xl font-semibold">Ionut Popa Werk</h1>
+				<h1
+					class="hidden lg:block text-xl md:text-2xl lg:text-3xl font-semibold">
+					Ionut Popa Werk
+				</h1>
 			</a>
 		</div>
 		<div class="hidden h-full md:flex items-center">
 			<ul class="flex gap-5 items-center">
 				<li
-					class="hover:cursor-pointer py-2 text-text text-2xl hover:text-primary"
+					class="hover:cursor-pointer py-2 text-text text-xl lg:text-2xl hover:text-primary"
 					v-for="(link, index) in links"
 					:key="index">
 					<a :href="'#' + link.toLowerCase()">{{ link }}</a>

@@ -22,9 +22,11 @@
 						:style="`background-image: url('${currentProject.images[imageIndex]}')`"></div>
 				</div>
 				<div
-					class="w-full md:w-2/5 max-h-[40vh] overflow-y-scroll text-center py-3 md:p-8 text-text font-light flex flex-col-reverse md:flex-col gap-6 items-center">
-					<div class="flex flex-col justify-center items-center gap-4">
-						<h1 class="text-secondary text-lg md:text-4xl font-semibold">
+					class="w-full md:w-2/5 max-h-[40vh] md:max-h-none md:h-full overflow-y-scroll text-center py-3 md:pt-7 lg:p-8 text-text font-light flex flex-col-reverse md:flex-col gap-6 items-center">
+					<div
+						class="flex flex-col justify-center items-center gap-4 md:gap-6 md:mt-6">
+						<h1
+							class="text-secondary text-lg md:text-2xl lg:text-4xl font-semibold">
 							{{ currentProject.title }}
 						</h1>
 						<p class="px-3 text-justify">

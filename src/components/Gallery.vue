@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="w-full min-h-[90%] px-5 md:px-10 xl:p-20 flex justify-center items-center relative flex-col gap-4 md:gap-8 mt-5 md:mt-0">
+		class="w-full min-h-[90%] px-5 md:px-10 xl:p-20 flex justify-center items-center relative flex-col gap-4 md:gap-8 mt-5 lg:mt-0">
 		<div
 			class="absolute top-[-4%]"
 			id="portfolio"></div>

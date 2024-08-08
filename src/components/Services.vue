@@ -5,7 +5,7 @@
 			id="services"></div>
 		<div class="w-full h-full md:flex justify-center items-center">
 			<div
-				class="w-full md:w-2/3 h-full md:flex justify-evenly items-center py-[8%] gap-10">
+				class="w-full lg:w-2/3 h-full md:flex justify-evenly items-center py-[8%] gap-10">
 				<div
 					class="w-full md:w-1/3 md:h-full px-5 py-5 flex flex-col items-start justify-start gap-5 md:gap-10">
 					<div class="flex flex-col justify-center gap-5 md:gap-10">
@@ -22,7 +22,7 @@
 					<button class="w-fit">
 						<a
 							href="#contact"
-							class="text-secondary uppercase font-semibold border-4 border-secondary hover:border-primary hover:text-text text-lg md:text-xl px-6 md:px-12 py-1 md:py-2">
+							class="text-secondary uppercase font-semibold border-4 border-secondary hover:border-primary hover:text-text text-lg lg:text-xl px-6 lg:px-12 py-1 lg:py-2">
 							get in touch
 						</a>
 					</button>
@@ -40,7 +40,7 @@
 						</summary>
 						<ul class="font-light flex justify-between flex-wrap">
 							<li
-								class="list-disc ml-3"
+								class="list-disc ml-3 md:ml-5"
 								v-for="(detail, index) in service.details"
 								:key="index">
 								{{ detail }}

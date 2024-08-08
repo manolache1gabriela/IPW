@@ -3,7 +3,7 @@
 		"thumbnail": "./assets/gallery/IMG_1.jpg",
 		"id": 1,
 		"title": "Lorem, ipsum dolor.",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, ex accusamus sapiente debitis omnis nulla obcaecati tenetur eaque dicta qui placeat quibusdam, praesentium laudantium exercitationem optio quis excepturi dolore assumenda maxime reiciendis hic! Accusamus veritatis, iusto est, rem omnis maxime impedit repudiandae possimus consectetur rerum, pariatur eveniet consequatur. At, deserunt?",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, ex accusamus sapiente debitis omnis nulla obcaecati tenetur eaque dicta",
 		"images": [
 			"./assets/gallery/IMG_1.jpg",
 			"./assets/gallery/IMG_2.jpg",
