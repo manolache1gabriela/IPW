@@ -30,7 +30,7 @@
 				Our Services
 			</h2>
 			<div
-				class="flex lg:flex-col lg:h-2/3 items-center justify-between md:justify-center lg:justify-between md:gap-3 lg:gap-0">
+				class="md:flex lg:flex-col lg:h-2/3 items-center justify-between md:justify-center lg:justify-between md:gap-3 lg:gap-0">
 				<div
 					v-for="(constructionIcon, index) in constructionIcons"
 					:key="index"
