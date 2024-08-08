@@ -24,13 +24,13 @@
 			</div>
 		</div>
 		<div
-			class="w-full lg:w-1/4 bg-secondary flex flex-col justify-between items-start md:items-center lg:items-start px-5 lg:px-16 gap-5 py-5 lg:py-28">
+			class="w-full lg:w-1/4 bg-secondary flex flex-col justify-between lg:justify-evenly items-start md:items-center lg:items-start px-5 lg:px-16 gap-5 py-5 lg:py-28">
 			<h2
 				class="text-text text-2xl md:text-3xl lg:text-5xl font-semibold drop-shadow animate-fade-left animate-duration-500 animate-ease-in">
 				Our Services
 			</h2>
 			<div
-				class="md:flex lg:flex-col lg:h-2/3 items-center justify-between md:justify-center lg:justify-between md:gap-3 lg:gap-0">
+				class="md:flex lg:flex-col lg:h-2/3 items-center justify-between md:justify-center lg:justify-between md:gap-3 lg:gap-5">
 				<div
 					v-for="(constructionIcon, index) in constructionIcons"
 					:key="index"
@@ -38,10 +38,10 @@
 					:class="`animate-delay-[${constructionIcon.delay}ms]`">
 					<img :src="constructionIcon.path" />
 					<div class="flex flex-col justify-center items-start gap-2">
-						<h3 class="text-xl md:text-2xl text-text font-semibold">
+						<h3 class="text-xl md:text-2xl lg:text-3xl text-text font-semibold">
 							{{ constructionIcon.title }}
 						</h3>
-						<p class="text-md md:text-x text-white">
+						<p class="text-md md:text-xl text-white">
 							{{ constructionIcon.description }}
 						</p>
 					</div>

@@ -7,14 +7,14 @@
 			class="w-full md:w-2/3 min-h-[50vh] md:h-full bg-project-page bg-cover bg-center"></div>
 		<div class="flex flex-col items-center md:w-2/3 h-full">
 			<div
-				class="w-full md:h-4/5 bg-white flex flex-col items-start justify-center gap-5 md:gap-7 lg:gap-14 text-text py-5 px-4 lg:p-52">
+				class="w-full md:h-4/5 bg-white flex flex-col items-start justify-center gap-5 md:gap-7 lg:gap-14 text-text py-5 px-4 lg:p-10">
 				<h2
-					class="text-3xl md:text-4xl lg:text-5xl capitalize font-semibold drop-shadow">
-					<span class="lg:border-b-4 border-secondary pb-3">No</span>
+					class="text-3xl md:text-4xl xl:text-5xl capitalize font-semibold drop-shadow">
+					<span class="xl:border-b-4 border-secondary pb-3">No</span>
 					project too big or too small
 				</h2>
 				<div
-					class="flex flex-col gap-5 md:grid grid-cols-2 md:gap-5 lg:gap-14 text-lg md:text-base lg:text-lg font-light">
+					class="flex flex-col gap-5 md:grid grid-cols-2 md:gap-5 lg:gap-14 text-lg md:text-base xl:text-lg font-light">
 					<p>
 						Lorem ipsum dolor sit amet consectetur, adipisicing elit.
 						Accusantium impedit esse tempora est pariatur cupiditate perferendis
@@ -34,7 +34,7 @@
 					<button class="w-fit h-fit">
 						<a
 							href="#contact"
-							class="text-secondary uppercase font-semibold border-4 border-secondary hover:border-primary hover:text-text text-xl md:text-base lg:text-xl px-7 md:px-2 lg:px-14 py-2 lg:py-3">
+							class="text-secondary uppercase font-semibold border-4 border-secondary hover:border-primary hover:text-text text-xl md:text-base lg:text-xl px-7 md:px-2 xl:px-14 py-2 xl:py-3">
 							Learn more
 						</a>
 					</button>

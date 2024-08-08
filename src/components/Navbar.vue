@@ -11,7 +11,7 @@
 					alt="company logo" />
 				<h1
 					class="hidden lg:block text-xl md:text-2xl lg:text-3xl font-semibold">
-					Ionut Popa Werk
+					Ionut Popa Werken
 				</h1>
 			</a>
 		</div>
