@@ -9,7 +9,7 @@
 				v-if="currentProject"
 				class="md:flex w-full h-full justify-center items-center relative">
 				<button
-					class="absolute z-40 top-0 right-0 w-8"
+					class="absolute z-40 top-0 right-0 w-8 bg-white/40 backdrop-blur-sm"
 					@click="closeModal">
 					<img
 						src="../assets/close.svg"
