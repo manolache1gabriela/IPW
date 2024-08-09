@@ -15,7 +15,7 @@
 				</h1>
 			</a>
 		</div>
-		<div class="hidden h-full md:flex items-center">
+		<div class="hidden h-full w-full md:flex items-center justify-end">
 			<ul class="flex gap-5 items-center">
 				<li
 					class="hover:cursor-pointer py-2 text-text text-xl lg:text-2xl hover:text-primary"
@@ -25,10 +25,35 @@
 				</li>
 			</ul>
 		</div>
-		<div class="md:hidden w-8">
+		<div>
+			<button
+				@click="openMenu"
+				class="md:hidden w-8 cursor-pointer">
+				<img
+					src="../assets/menu.svg"
+					alt="menu icon" />
+			</button>
+		</div>
+	</div>
+	<div
+		class="absolute top-0 min-h-screen z-10 bg-secondary w-full text-4xl flex-col justify-center items-center gap-5 animate-open-menu origin-top"
+		:class="open ? 'flex ' : ' hidden '">
+		<button class="absolute z-40 top-8 right-8 w-8">
 			<img
-				src="../assets/menu.svg"
+				@click="closeMenu"
+				src="../assets/close.svg"
 				alt="menu icon" />
+		</button>
+		<div class="p-10">
+			<ul class="flex flex-col justify-center items-center gap-7">
+				<li
+					@click="closeMenu"
+					class="hover:cursor-pointer text-text text-3xl hover:text-primary"
+					v-for="(link, index) in links"
+					:key="index">
+					<a :href="'#' + link.toLowerCase()">{{ link }}</a>
+				</li>
+			</ul>
 		</div>
 	</div>
 </template>
@@ -37,4 +62,13 @@
 	import { ref } from 'vue';
 
 	const links = ref(['Home', 'Portfolio', 'Project', 'Services', 'Contact']);
+
+	let open = ref(false);
+
+	function openMenu() {
+		open.value = !open.value;
+	}
+	function closeMenu() {
+		openMenu();
+	}
 </script>
