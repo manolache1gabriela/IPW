@@ -3,19 +3,19 @@
 		class="w-full h-[10%] md:fixed z-20 top-0 px-2 md:px-10 py-1 bg-white flex items-center justify-between shadow-md">
 		<div class="h-full">
 			<a
-				class="h-full flex items-center justify-center gap-4 text-gray-400 hover:text-secondary"
+				class="h-full w-full flex items-center justify-center gap-4 text-gray-400 hover:text-secondary"
 				href="/">
 				<img
 					class="h-full grayscale hover:filter-none"
 					src="../assets/logo1.svg"
 					alt="company logo" />
 				<h1
-					class="hidden lg:block text-xl md:text-2xl lg:text-3xl font-semibold">
-					Ionut Popa Werken
+					class="hidden w-full lg:block text-xl md:text-2xl lg:text-3xl font-semibold">
+					IP Werken
 				</h1>
 			</a>
 		</div>
-		<div class="hidden h-full w-full md:flex items-center justify-end">
+		<div class="hidden h-full md:flex items-center">
 			<ul class="flex gap-5 items-center">
 				<li
 					class="hover:cursor-pointer py-2 text-text text-xl lg:text-2xl hover:text-primary"
@@ -25,10 +25,10 @@
 				</li>
 			</ul>
 		</div>
-		<div>
+		<div class="md:hidden">
 			<button
 				@click="openMenu"
-				class="md:hidden w-8 cursor-pointer">
+				class="w-8 cursor-pointer">
 				<img
 					src="../assets/menu.svg"
 					alt="menu icon" />
