@@ -4,7 +4,8 @@
 		class="absolute top-0 left-0 w-full h-full flex justify-center items-center">
 		<dialog
 			class="w-full md:w-3/4 h-3/4 z-10 backdrop:bg-black backdrop:opacity-80"
-			ref="dialog">
+			ref="dialog"
+			@close="closeModal()">
 			<div
 				v-if="currentProject"
 				class="md:flex w-full h-full justify-center items-center relative">
@@ -65,6 +66,7 @@
 	let props = defineProps(['showModal', 'currentProject', 'projects']);
 
 	let dialog = ref(null);
+	let imageIndex = ref(0);
 
 	watch(
 		() => props.showModal,
@@ -79,14 +81,13 @@
 	function closeModal() {
 		dialog.value.close();
 		emit('modalClosed');
+		imageIndex.value = 0;
 	}
 	let currentProject = computed(() => {
 		return props.projects.filter(
 			(project) => project.id === props.currentProject
 		)[0];
 	});
-
-	let imageIndex = ref(0);
 
 	function changeImage(changeType, max = 4) {
 		if (imageIndex.value > max) {
