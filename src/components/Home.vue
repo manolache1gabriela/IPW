@@ -1,6 +1,5 @@
 <template>
-	<div
-		class="w-full h-[90%] flex flex-col lg:flex-row md:mt-[11.4%] lg:mt-[5%] mb-32">
+	<div class="w-full h-[90%] flex flex-col lg:flex-row mb-32">
 		<div class="w-full h-full lg:w-3/4 bg-hero-image bg-cover bg-bottom">
 			<div
 				class="w-full h-full md:py-20 bg-black bg-opacity-80 flex justify-center items-center">
