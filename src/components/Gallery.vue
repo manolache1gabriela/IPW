@@ -3,9 +3,9 @@
 		class="w-full min-h-[90%] px-5 lg:py-10 md:px-10 xl:p-20 flex justify-center items-center relative flex-col gap-4 md:gap-8 mt-5 lg:mt-0 mb-5">
 		<div
 			class="absolute top-[-4%] lg:top-[-8%]"
-			id="portfolio"></div>
+			id="portefeuille"></div>
 		<h3 class="text-3xl md:text-4xl font-semibold capitalize drop-shadow">
-			Latest projects
+			Laatste projecten
 		</h3>
 		<div class="w-10 md:w-16 h-1 md:h-2 bg-secondary"></div>
 		<div
@@ -37,7 +37,7 @@
 			@click="viewAllPhotos"
 			v-if="projects.length > 8"
 			class="text-secondary uppercase font-semibold border-4 border-secondary hover:border-primary hover:text-text text-xl px-14 py-3">
-			{{ showAll ? 'view less' : 'view all' }}
+			{{ showAll ? 'Bekijk minder' : 'Bekijk meer' }}
 		</button>
 		<ProjectModal
 			@modal-closed="

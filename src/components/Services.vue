@@ -2,7 +2,7 @@
 	<div class="w-full min-h-fit md:h-[90%] relative my-5">
 		<div
 			class="absolute top-[-11.1%]"
-			id="services"></div>
+			id="mogelijkheden"></div>
 		<div class="w-full h-full md:flex justify-center items-center">
 			<div
 				class="w-full lg:w-2/3 h-full md:flex justify-evenly items-center py-[8%] gap-10">
@@ -10,20 +10,20 @@
 					class="w-full md:w-1/3 md:h-full px-5 py-5 flex flex-col items-start justify-start gap-5 md:gap-10">
 					<div class="flex flex-col justify-center gap-5 md:gap-10">
 						<h4 class="text-3xl md:text-5xl font-semibold">
-							Let's build something together
+							Waarom zou u voor ons kiezen?
 						</h4>
 						<div class="w-16 h-2 bg-secondary"></div>
 					</div>
 					<p class="text-md md:text-lg font-light">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, iste
-						provident dolores, suscipit obcaecati incidunt dolorem harum
-						nostrum, nisi perferendis.
+						Dankzij onze veelzijdigheid en brede expertise kunnen we elk project
+						van begin tot eind succesvol begeleiden. We zorgen voor een vlotte
+						uitvoering, ongeacht de complexiteit van de opdracht.
 					</p>
 					<button class="w-fit">
 						<a
 							href="#contact"
 							class="text-secondary uppercase font-semibold border-4 border-secondary hover:border-primary hover:text-text text-lg lg:text-xl px-6 lg:px-12 py-1 lg:py-2">
-							get in touch
+							Neem contact op
 						</a>
 					</button>
 				</div>
@@ -38,14 +38,7 @@
 							{{ service.summary }}
 							<div class="w-6 h-6 rounded-full ml-1 bg-open-button"></div>
 						</summary>
-						<ul class="font-light flex justify-between flex-wrap">
-							<li
-								class="list-disc ml-3 md:ml-5"
-								v-for="(detail, index) in service.details"
-								:key="index">
-								{{ detail }}
-							</li>
-						</ul>
+						<p>{{ service.details }}</p>
 					</details>
 				</div>
 			</div>
@@ -57,33 +50,34 @@
 
 	const services = ref([
 		{
-			summary: 'Multi-inzetbaar',
-			details: ['Grondwerken', 'Tuinbouw', 'Renovatie', 'Afbraak', 'Transport'],
+			summary: 'Expertise',
+			details:
+				'Met jarenlange ervaring en diepgaande kennis in diverse vakgebieden leveren wij hoogwaardig werk. Ons team bestaat uit vakmensen die elke opdracht met precisie en toewijding uitvoeren. We blijven continu innoveren om onze klanten de beste oplossingen te bieden.',
 		},
 		{
-			summary: 'Kwaliteit',
-			details: [
-				'Jarenlange ervaring & expertise',
-				'Kwalitatieve materialen',
-				'Professioneel gereedschap',
-			],
+			summary: 'Kwalitatieve materialen',
+			details:
+				'Wij werken uitsluitend met materialen van topkwaliteit om duurzame en betrouwbare resultaten te garanderen. Elk project, groot of klein, verdient de beste basis om lang mee te gaan. Door te investeren in kwaliteit, zorgen we voor tevreden klanten en langdurige resultaten.',
+		},
+		{
+			summary: 'Professioneel gereedschap',
+			details:
+				'Bij IPW maken we gebruik van geavanceerd en professioneel gereedschap om elk project efficiënt en nauwkeurig uit te voeren. Dit stelt ons in staat om hoge standaarden te handhaven en elk detail tot in de puntjes af te werken. Onze uitrusting is een cruciaal onderdeel van ons vakmanschap.',
 		},
 		{
 			summary: 'Klantgericht',
-			details: [
-				' Noden en verwachtingen formuleren',
-				'Prioriteiten stellen',
-				'Heldere communicatie bewaken',
-				'Vertrouwen creëren',
-			],
+			details:
+				'Wij luisteren naar de wensen van onze klanten en bieden oplossingen op maat. Uw tevredenheid is onze hoogste prioriteit, en we werken nauw met u samen om uw visie te realiseren. Elke stap in het proces is gericht op het behalen van een resultaat dat aan uw verwachtingen voldoet.',
 		},
 		{
-			summary: ' Doelgericht & Doeltreffend',
-			details: [
-				'Helder doel formuleren',
-				'Plan van aanpak opstellen',
-				'Punctualiteit',
-			],
+			summary: 'Doelgericht & Doeltreffend',
+			details:
+				'IPW werkt efficiënt en resultaatgericht om uw projecten tijdig en binnen budget af te ronden. We zetten ons in om elke opdracht snel en effectief uit te voeren, zonder concessies te doen aan de kwaliteit. Onze aanpak is altijd gericht op het behalen van uw doelen.',
+		},
+		{
+			summary: 'Punctualiteit',
+			details:
+				'Bij IPW hechten we veel waarde aan stiptheid en het nakomen van afspraken. We zorgen ervoor dat elk project op tijd wordt opgeleverd, zoals afgesproken. Punctualiteit is voor ons een teken van respect en professionaliteit tegenover onze klanten.',
 		},
 	]);
 </script>

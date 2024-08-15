@@ -18,10 +18,10 @@
 		<div class="hidden h-full md:flex items-center">
 			<ul class="flex gap-5 items-center">
 				<li
-					class="hover:cursor-pointer py-2 text-text text-xl lg:text-2xl hover:text-primary"
+					class="hover:cursor-pointer py-2 text-gray-400 text-xl lg:text-2xl hover:text-secondary font-semibold"
 					v-for="(link, index) in links"
 					:key="index">
-					<a :href="'#' + link.toLowerCase()">{{ link }}</a>
+					<a :href="'#' + link.toLowerCase().split(' ').join('')">{{ link }}</a>
 				</li>
 			</ul>
 		</div>
@@ -51,7 +51,7 @@
 					class="hover:cursor-pointer text-text text-3xl hover:text-primary"
 					v-for="(link, index) in links"
 					:key="index">
-					<a :href="'#' + link.toLowerCase()">{{ link }}</a>
+					<a :href="'#' + link.toLowerCase().split(' ').join('')">{{ link }}</a>
 				</li>
 			</ul>
 		</div>
@@ -61,7 +61,13 @@
 <script setup>
 	import { ref } from 'vue';
 
-	const links = ref(['Home', 'Portfolio', 'Project', 'Services', 'Contact']);
+	const links = ref([
+		'Thuis',
+		'Portefeuille',
+		'Over Ons ',
+		'Mogelijkheden',
+		'Contact',
+	]);
 
 	let open = ref(false);
 

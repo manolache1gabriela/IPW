@@ -13,7 +13,7 @@
 	<div class="w-full h-full font-rubik relative">
 		<div
 			class="absolute top-[-10%]"
-			id="home"></div>
+			id="thuis"></div>
 		<Home />
 		<Gallery />
 		<ProjectPage />

@@ -2,8 +2,6 @@
 	{
 		"thumbnail": "./assets/gallery/IMG_5.jpg",
 		"id": 1,
-		"title": "Lorem, ipsum dolor.",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, ex accusamus sapiente debitis omnis nulla obcaecati tenetur eaque dicta",
 		"images": [
 			"./assets/gallery/IMG_0.jpg",
 			"./assets/gallery/IMG_1.jpg",

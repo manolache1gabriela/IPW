@@ -48,7 +48,7 @@
 				</a>
 			</div>
 			<div
-				class="w-full md:h-[80%] bg-white md:pt-20 px-5 py-5 lg:pl-10 xl:pl-28 flex flex-col items-start gap-2 xl:relative md:gap-8">
+				class="logo-bg w-full md:h-[80%] bg-white md:pt-20 px-5 py-5 lg:pl-10 xl:pl-28 flex flex-col items-start gap-2 xl:relative md:gap-8">
 				<div
 					v-for="(icon, index) in contactIcons"
 					:key="index"
@@ -65,7 +65,7 @@
 					>
 				</div>
 				<div
-					class="w-48 xl:w-1/2 h-48 xl:h-1/2 bg-logo-image md:mt-10 lg:mt-0 bg-contain bg-no-repeat xl:absolute bottom-0 right-0 self-center xl:self-end bg-right"></div>
+					class="w-48 lg:hidden xl:w-1/2 h-48 xl:h-1/2 bg-logo-image md:mt-10 lg:mt-0 bg-contain bg-no-repeat xl:absolute bottom-0 right-0 self-center xl:self-end bg-right"></div>
 			</div>
 		</div>
 	</div>
@@ -124,3 +124,15 @@
 		},
 	];
 </script>
+
+<style>
+	@media (min-width: 1024px) {
+		.logo-bg {
+			background-image: url('./assets/logo1.svg');
+			background-size: 95%;
+			background-blend-mode: luminosity;
+			background-position: 600% -25%;
+			background-repeat: no-repeat;
+		}
+	}
+</style>
