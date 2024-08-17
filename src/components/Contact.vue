@@ -8,14 +8,19 @@
 			<h4 class="text-white text-5xl font-semibold drop-shadow">Contact us</h4>
 			<div class="w-16 h-2 bg-white"></div>
 			<form
+				name="contact"
 				action="post"
+				data-netlify="true"
+				@submit="submit"
 				class="lg:h-1/3 flex flex-col lg:grid grid-cols-2 grid-rows-4 gap-4 md:gap-6">
 				<input
 					type="text"
+					name="name"
 					placeholder="Name"
 					class="col-span-1 w-full row-span-1 px-4 py-2" />
 				<input
 					type="email"
+					name="email"
 					placeholder="Email"
 					class="col-span-1 w-full row-span-1 px-4 py-2" />
 				<textarea

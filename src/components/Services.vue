@@ -65,16 +65,6 @@
 				'Bij IPW maken we gebruik van geavanceerd en professioneel gereedschap om elk project efficiënt en nauwkeurig uit te voeren. Dit stelt ons in staat om hoge standaarden te handhaven en elk detail tot in de puntjes af te werken. Onze uitrusting is een cruciaal onderdeel van ons vakmanschap.',
 		},
 		{
-			summary: 'Klantgericht',
-			details:
-				'Wij luisteren naar de wensen van onze klanten en bieden oplossingen op maat. Uw tevredenheid is onze hoogste prioriteit, en we werken nauw met u samen om uw visie te realiseren. Elke stap in het proces is gericht op het behalen van een resultaat dat aan uw verwachtingen voldoet.',
-		},
-		{
-			summary: 'Doelgericht & Doeltreffend',
-			details:
-				'IPW werkt efficiënt en resultaatgericht om uw projecten tijdig en binnen budget af te ronden. We zetten ons in om elke opdracht snel en effectief uit te voeren, zonder concessies te doen aan de kwaliteit. Onze aanpak is altijd gericht op het behalen van uw doelen.',
-		},
-		{
 			summary: 'Punctualiteit',
 			details:
 				'Bij IPW hechten we veel waarde aan stiptheid en het nakomen van afspraken. We zorgen ervoor dat elk project op tijd wordt opgeleverd, zoals afgesproken. Punctualiteit is voor ons een teken van respect en professionaliteit tegenover onze klanten.',
