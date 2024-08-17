@@ -10,7 +10,7 @@
 			<form
 				name="contact"
 				action="post"
-				data-netlify="true"
+				netlify
 				@submit="submit"
 				class="lg:h-1/3 flex flex-col lg:grid grid-cols-2 grid-rows-4 gap-4 md:gap-6">
 				<input
