@@ -67,41 +67,85 @@
 					</button>
 				</form>
 			</div>
-			<!-- <div
+			<div
 				class="w-full md:w-1/2 bg-text flex flex-col justify-center items-center">
 				<div
 					class="w-full lg:w-1/2 py-5 md:py-0 md:h-[20%] flex justify-evenly xl:justify-between items-center">
 					<a
-						v-for="(icon, index) in socialIcons"
-						:key="index"
-						:href="icon.link"
+						href="https://www.facebook.com/profile.php?id=61563783506446"
 						target="_blank">
 						<img
 							class="w-7 md:w-10"
-							:src="icon.src"
-							:alt="icon.alt" />
+							src="./assets/facebook.svg"
+							alt="facebook icon" />
+					</a>
+					<a
+						href="https://www.instagram.com/ipwerken"
+						target="_blank">
+						<img
+							class="w-7 md:w-10"
+							src="./assets/instagram.svg"
+							alt="instagram icon" />
+					</a>
+					<a
+						href="https://wa.me/32467864650?text=I'm%20interested%20in%20your%20work.%20Call%20me!"
+						target="_blank">
+						<img
+							class="w-7 md:w-10"
+							src="./assets/whatsapp.svg"
+							alt="whatsapp icon" />
+					</a>
+					<a
+						href="https://www.facebook.com/profile.php?id=61563783506446"
+						target="_blank">
+						<img
+							class="w-7 md:w-10"
+							src="./assets/tiktok.svg"
+							alt="facebook icon" />
 					</a>
 				</div>
 				<div
 					class="logo-bg w-full md:h-[80%] bg-white md:pt-20 px-5 py-5 lg:pl-10 xl:pl-28 flex flex-col items-start gap-2 xl:relative md:gap-8">
-					<div
-						v-for="(icon, index) in contactIcons"
-						:key="index"
-						class="flex items-center justify-start gap-6">
+					<div class="flex items-center justify-start gap-6">
 						<img
-							:class="'w-' + icon.width"
-							:src="icon.src"
-							:alt="icon.alt" />
+							class="w-6"
+							src="./assets/location.svg"
+							alt="location icon" />
 						<a
-							:href="icon.link"
+							href="https://maps.app.goo.gl/HUGGdNKN6ofzAhTd9"
 							target="_blank"
 							class="hover:text-secondary"
-							>{{ icon.text }}</a
+							>Hofstraat 17 Dessel</a
 						>
 					</div>
-					<div
-						class="w-48 lg:hidden xl:w-1/2 h-48 xl:h-1/2 bg-logo-image md:mt-10 lg:mt-0 bg-contain bg-no-repeat xl:absolute bottom-0 right-0 self-center xl:self-end bg-right"></div>
-				</div> -->
+					<div class="flex items-center justify-start gap-6">
+						<img
+							class="w-6"
+							src="./assets/phone.svg"
+							alt="phone icon" />
+						<a
+							href="tel:+32 467 86 46 50"
+							target="_blank"
+							class="hover:text-secondary"
+							>+32 467 86 46 50</a
+						>
+					</div>
+					<div class="flex items-center justify-start gap-6">
+						<img
+							class="w-8"
+							src="./assets/mail.svg"
+							alt="mail icon" />
+						<a
+							href="mailto:info@ipwerken.be"
+							target="_blank"
+							class="hover:text-secondary"
+							>info@ipwerken.be</a
+						>
+					</div>
+				</div>
+				<div
+					class="w-48 lg:hidden xl:w-1/2 h-48 xl:h-1/2 bg-logo-image md:mt-10 lg:mt-0 bg-contain bg-no-repeat xl:absolute bottom-0 right-0 self-center xl:self-end bg-right"></div>
+			</div>
 		</div>
 		<script
 			type="module"
