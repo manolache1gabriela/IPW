@@ -28,6 +28,81 @@
 		<div
 			class="w-full h-full overflow-y-scroll no-scrollbar scroll-smooth"
 			id="app"></div>
+		<div class="w-full min-h-fit md:h-[90%] md:flex relative">
+			<div
+				class="absolute top-[-11.1%]"
+				id="contact"></div>
+			<div
+				class="w-full md:w-1/2 bg-secondary flex flex-col justify-center gap-10 py-5 md:py-0 px-5 lg:px-5 xl:px-40">
+				<h4 class="text-white text-5xl font-semibold drop-shadow">
+					Contact us
+				</h4>
+				<div class="w-16 h-2 bg-white"></div>
+				<form
+					name="contact"
+					action="post"
+					data-netlify="true"
+					class="lg:h-1/3 flex flex-col lg:grid grid-cols-2 grid-rows-4 gap-4 md:gap-6">
+					<input
+						type="text"
+						name="name"
+						placeholder="Name"
+						class="col-span-1 w-full row-span-1 px-4 py-2" />
+					<input
+						type="email"
+						name="email"
+						placeholder="Email"
+						class="col-span-1 w-full row-span-1 px-4 py-2" />
+					<textarea
+						name="message"
+						id="email-body"
+						cols="30"
+						rows="10"
+						placeholder="Message"
+						class="col-span-2 w-full row-span-2 px-4 py-4"></textarea>
+					<button
+						class="mt-4 w-fit text-white uppercase font-semibold border-4 border-white hover:border-text hover:text-text text-md md:text-lg col-start-2 py-2 px-4 md:px-8 md:place-self-end"
+						type="submit">
+						Stuur bericht
+					</button>
+				</form>
+			</div>
+			<!-- <div
+				class="w-full md:w-1/2 bg-text flex flex-col justify-center items-center">
+				<div
+					class="w-full lg:w-1/2 py-5 md:py-0 md:h-[20%] flex justify-evenly xl:justify-between items-center">
+					<a
+						v-for="(icon, index) in socialIcons"
+						:key="index"
+						:href="icon.link"
+						target="_blank">
+						<img
+							class="w-7 md:w-10"
+							:src="icon.src"
+							:alt="icon.alt" />
+					</a>
+				</div>
+				<div
+					class="logo-bg w-full md:h-[80%] bg-white md:pt-20 px-5 py-5 lg:pl-10 xl:pl-28 flex flex-col items-start gap-2 xl:relative md:gap-8">
+					<div
+						v-for="(icon, index) in contactIcons"
+						:key="index"
+						class="flex items-center justify-start gap-6">
+						<img
+							:class="'w-' + icon.width"
+							:src="icon.src"
+							:alt="icon.alt" />
+						<a
+							:href="icon.link"
+							target="_blank"
+							class="hover:text-secondary"
+							>{{ icon.text }}</a
+						>
+					</div>
+					<div
+						class="w-48 lg:hidden xl:w-1/2 h-48 xl:h-1/2 bg-logo-image md:mt-10 lg:mt-0 bg-contain bg-no-repeat xl:absolute bottom-0 right-0 self-center xl:self-end bg-right"></div>
+				</div> -->
+		</div>
 		<script
 			type="module"
 			src="./src/main.js"></script>

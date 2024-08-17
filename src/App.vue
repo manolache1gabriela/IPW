@@ -18,6 +18,6 @@
 		<Gallery />
 		<ProjectPage />
 		<Services />
-		<Contact />
+		<!-- <Contact /> -->
 	</div>
 </template>
