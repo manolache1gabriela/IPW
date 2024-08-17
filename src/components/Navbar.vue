@@ -62,8 +62,8 @@
 	import { ref } from 'vue';
 
 	const links = ref([
-		'Thuis',
-		'Portefeuille',
+		'Visie',
+		'Projecten',
 		'Over Ons ',
 		'Mogelijkheden',
 		'Contact',

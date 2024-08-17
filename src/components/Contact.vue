@@ -10,8 +10,8 @@
 			<form
 				name="contact"
 				action="post"
-				netlify
-				@submit="submit"
+				data-netlify="true"
+				@submit="submit.prevent"
 				class="lg:h-1/3 flex flex-col lg:grid grid-cols-2 grid-rows-4 gap-4 md:gap-6">
 				<input
 					type="text"
@@ -33,7 +33,7 @@
 				<button
 					class="mt-4 w-fit text-white uppercase font-semibold border-4 border-white hover:border-text hover:text-text text-md md:text-lg col-start-2 py-2 px-4 md:px-8 md:place-self-end"
 					type="submit">
-					Send message
+					Stuur bericht
 				</button>
 			</form>
 		</div>
@@ -123,9 +123,9 @@
 			name: 'mail icon',
 			src: './assets/mail.svg',
 			alt: 'mail icon',
-			text: 'info@ipw.be',
+			text: 'info@ipwerken.be',
 			width: 8,
-			link: 'mailto:info@ipw.be',
+			link: 'mailto:info@ipwerken.be',
 		},
 	];
 </script>
