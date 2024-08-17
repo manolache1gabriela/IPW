@@ -28,7 +28,7 @@
 						<button
 							@click="changeImage('minus', currentProject.images.length)"
 							:disabled="imageIndex < 1"
-							class="disabled:invisible bg-white/10 backdrop-blur-sm h-full px-2">
+							class="disabled:invisible bg-gray-500/20 backdrop-blur-sm h-full px-2">
 							<img
 								src="../assets/left.svg"
 								alt="arrow left"
@@ -37,7 +37,7 @@
 						<button
 							@click="changeImage('plus', currentProject.images.length)"
 							:disabled="imageIndex === currentProject.images.length - 1"
-							class="disabled:invisible bg-white/10 backdrop-blur-sm h-full px-2">
+							class="disabled:invisible bg-gray-500/20 backdrop-blur-sm h-full px-2">
 							<img
 								class="w-6 md:w-8"
 								src="../assets/right.svg"
