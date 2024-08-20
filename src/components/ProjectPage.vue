@@ -1,5 +1,5 @@
 <template>
-	<div class="w-full md:h-[90%] md:flex justify-center items-center relative">
+	<div class="w-full md:h-[90vh] md:flex justify-center items-center relative">
 		<div
 			class="absolute top-[-11.1%]"
 			id="overons"></div>

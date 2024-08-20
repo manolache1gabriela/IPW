@@ -1,12 +1,12 @@
 <template>
 	<div
-		class="w-full h-[10%] md:sticky z-20 top-0 px-2 md:px-10 py-1 bg-white flex items-center justify-between shadow-md">
+		class="w-full md:sticky z-20 top-0 px-2 md:px-10 py-1 bg-white flex items-center justify-between shadow-md">
 		<div class="h-full">
 			<a
 				class="h-full w-full flex items-center justify-center gap-4 text-gray-400 hover:text-secondary"
 				href="/">
 				<img
-					class="h-full grayscale hover:filter-none"
+					class="h-24 grayscale hover:filter-none"
 					src="../assets/logo1.svg"
 					alt="company logo" />
 				<h1
@@ -37,7 +37,7 @@
 	</div>
 	<div
 		class="absolute top-0 min-h-screen z-10 bg-secondary w-full text-4xl flex-col justify-center items-center gap-5 animate-open-menu origin-top"
-		:class="open ? 'flex ' : ' hidden '">
+		:class="open ? 'flex nav-open' : ' hidden '">
 		<button class="absolute z-40 top-8 right-8 w-8">
 			<img
 				@click="closeMenu"
@@ -64,7 +64,7 @@
 	const links = ref([
 		'Visie',
 		'Projecten',
-		'Over Ons ',
+		'Over Ons',
 		'Mogelijkheden',
 		'Contact',
 	]);

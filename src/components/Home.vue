@@ -1,8 +1,9 @@
 <template>
-	<div class="md:w-full md:h-full flex flex-col lg:flex-row">
-		<div class="w-full h-full lg:w-3/4 bg-hero-image bg-cover bg-bottom">
+	<div class="md:w-full md:h-[90vh] flex flex-col lg:flex-row">
+		<div
+			class="w-full h-[90%] md:h-[80%] lg:h-full lg:w-3/4 bg-hero-image bg-cover bg-top">
 			<div
-				class="w-full h-full md:py-20 bg-black bg-opacity-80 flex justify-center items-center">
+				class="w-full h-full md:py-20 bg-black bg-opacity-65 flex justify-center items-center">
 				<div
 					class="flex flex-col justify-center items-start gap-10 w-full h-full md:w-4/5 md:h-2/3 px-4">
 					<h1
@@ -28,22 +29,24 @@
 			</div>
 		</div>
 		<div
-			class="w-full lg:w-1/4 bg-secondary flex flex-col justify-between lg:justify-evenly items-start md:items-center lg:items-start px-5 lg:px-16 gap-5 py-5 xl:py-28">
+			class="w-full md:h-[20%] lg:h-full lg:w-1/4 bg-secondary flex flex-col justify-between lg:justify-evenly items-start md:items-center lg:items-start px-5 lg:px-16 gap-5 py-5 xl:py-28">
 			<h2
 				class="text-text text-2xl md:text-3xl lg:text-5xl font-semibold drop-shadow animate-fade-left animate-duration-500 animate-ease-in">
 				Onze diensten
 			</h2>
 			<div
-				class="md:flex lg:flex-col lg:h-2/3 items-start justify-between md:justify-center lg:justify-between md:gap-3 lg:gap-5">
+				class="md:flex lg:flex-col lg:h-2/3 items-start md:items-center lg:items-start justify-between md:justify-center lg:justify-between md:gap-8 lg:gap-5">
 				<div
 					v-for="(constructionIcon, index) in constructionIcons"
 					:key="index"
 					class="flex w-full mt-2 md:mt-0 items-center gap-6 md:gap-3 lg:gap-6 animate-fade-left animate-delay-1000 animate-duration-500 animate-ease-in"
 					:class="`animate-delay-[${constructionIcon.delay}ms]`">
-					<img :src="constructionIcon.path" />
+					<img
+						class="md:h-12 lg:h-14"
+						:src="constructionIcon.path" />
 					<div class="flex flex-col justify-center items-start gap-2">
 						<h3
-							class="text-xl md:text-2xl lg:text-3xl text-text font-semibold capitalize">
+							class="text-xl md:text-lg lg:text-3xl text-text font-semibold capitalize">
 							{{ constructionIcon.title }}
 						</h3>
 					</div>
@@ -58,27 +61,23 @@
 
 	const constructionIcons = ref([
 		{
-			path: '../assets/svg1.svg',
+			path: '../assets/gardening.svg',
 			title: 'grondwerken tot tuinbouw',
-			description: 'Lorem ipsum dolor sit amet consectetur.',
 			delay: '1000',
 		},
 		{
-			path: '../assets/svg2.svg',
+			path: '../assets/renovations.svg',
 			title: 'renovatie',
-			description: 'Lorem ipsum dolor sit amet consectetur.',
 			delay: '1500',
 		},
 		{
-			path: '../assets/svg3.svg',
+			path: '../assets/rubbish.svg',
 			title: 'afbraak',
-			description: 'Lorem ipsum dolor sit amet consectetur.',
 			delay: '2000',
 		},
 		{
-			path: '../assets/svg3.svg',
+			path: '../assets/delivery.svg',
 			title: 'transport',
-			description: 'Lorem ipsum dolor sit amet consectetur.',
 			delay: '2000',
 		},
 	]);

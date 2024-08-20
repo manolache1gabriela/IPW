@@ -1,5 +1,5 @@
 <template>
-	<div class="w-full min-h-fit md:h-[90%] relative my-5">
+	<div class="w-full min-h-fit md:h-[90vh] relative my-5">
 		<div
 			class="absolute top-[-11.1%]"
 			id="mogelijkheden"></div>
@@ -7,9 +7,9 @@
 			<div
 				class="w-full lg:w-2/3 h-full md:flex justify-evenly items-center py-[8%] gap-10">
 				<div
-					class="w-full md:w-1/3 md:h-full px-5 py-5 flex flex-col items-start justify-start gap-5 md:gap-10">
+					class="w-full md:w-1/3 md:h-full px-5 flex flex-col items-start justify-start gap-5 md:gap-10">
 					<div class="flex flex-col justify-center gap-5 md:gap-10">
-						<h4 class="text-3xl md:text-5xl font-semibold">
+						<h4 class="text-3xl md:text-4xl font-semibold">
 							Waarom zou u voor ons kiezen?
 						</h4>
 						<div class="w-16 h-2 bg-secondary"></div>
@@ -22,7 +22,7 @@
 					<button class="w-fit">
 						<a
 							href="#contact"
-							class="text-secondary uppercase font-semibold border-4 border-secondary hover:border-primary hover:text-text text-lg lg:text-xl px-6 lg:px-12 py-1 lg:py-2">
+							class="text-secondary uppercase font-semibold border-4 border-secondary hover:border-primary hover:text-text text-base lg:text-xl px-6 md:px-4 lg:px-12 py-1 lg:py-2">
 							Neem contact op
 						</a>
 					</button>

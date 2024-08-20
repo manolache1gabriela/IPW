@@ -1,6 +1,8 @@
 <template>
 	<div
 		v-show="currentProject"
+		@keydown.left="changeImage('minus')"
+		@keydown.right="changeImage('plus')"
 		class="absolute top-0 left-0 w-full h-full flex justify-center items-center">
 		<dialog
 			class="w-full md:w-3/4 h-1/2 md:h-3/4 z-10 backdrop:bg-black backdrop:opacity-80"
@@ -26,7 +28,7 @@
 					<div
 						class="absolute flex justify-between items-center top-0 left-0 w-full h-full z-30">
 						<button
-							@click="changeImage('minus', currentProject.images.length)"
+							@click="changeImage('minus')"
 							:disabled="imageIndex < 1"
 							class="disabled:invisible bg-gray-500/20 backdrop-blur-sm h-full px-2">
 							<img
@@ -35,7 +37,7 @@
 								class="w-6 md:w-8" />
 						</button>
 						<button
-							@click="changeImage('plus', currentProject.images.length)"
+							@click="changeImage('plus')"
 							:disabled="imageIndex === currentProject.images.length - 1"
 							class="disabled:invisible bg-gray-500/20 backdrop-blur-sm h-full px-2">
 							<img
@@ -99,6 +101,9 @@
 		(newValue) => {
 			if (newValue && props.currentProject !== undefined) {
 				dialog.value.showModal();
+				setTimeout(() => {
+					dialog.value.focus();
+				});
 			}
 		}
 	);
@@ -115,15 +120,18 @@
 		)[0];
 	});
 
-	function changeImage(changeType, max = 4) {
-		if (imageIndex.value > max) {
-			imageIndex.value = 0;
+	function changeImage(changeType) {
+		if (changeType === 'minus' && imageIndex.value === 0) {
+			imageIndex.value = currentProject.value.images.length - 1;
 		}
 		if (changeType === 'plus') {
-			imageIndex.value += 1;
+			imageIndex.value =
+				(imageIndex.value + 1) % currentProject.value.images.length;
 		}
+
 		if (changeType === 'minus') {
-			imageIndex.value -= 1;
+			imageIndex.value =
+				(imageIndex.value - 1) % currentProject.value.images.length;
 		}
 	}
 </script>

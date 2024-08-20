@@ -14,8 +14,7 @@
 	{
 		"thumbnail": "./assets/gallery/IMG_18.jpg",
 		"id": 2,
-		"title": "Lorem, ipsum dolor.",
-		"description": "work",
+
 		"images": [
 			"./assets/gallery/IMG_6.jpg",
 			"./assets/gallery/IMG_7.jpg",
@@ -29,8 +28,6 @@
 	{
 		"thumbnail": "./assets/gallery/IMG_16.jpg",
 		"id": 3,
-		"title": "Lorem, ipsum dolor.",
-		"description": "work",
 		"images": [
 			"./assets/gallery/IMG_11.jpg",
 			"./assets/gallery/IMG_12.jpg",
@@ -43,8 +40,6 @@
 	{
 		"thumbnail": "./assets/gallery/IMG_31.jpg",
 		"id": 4,
-		"title": "Lorem, ipsum dolor.",
-		"description": "work",
 		"images": [
 			"./assets/gallery/IMG_29.jpg",
 			"./assets/gallery/IMG_30.jpg",
@@ -54,8 +49,6 @@
 	{
 		"thumbnail": "./assets/gallery/IMG_40.jpg",
 		"id": 5,
-		"title": "Lorem, ipsum dolor.",
-		"description": "work",
 		"images": [
 			"./assets/gallery/IMG_32.jpg",
 			"./assets/gallery/IMG_33.jpg",
@@ -71,8 +64,6 @@
 	{
 		"thumbnail": "./assets/gallery/IMG_47.jpg",
 		"id": 6,
-		"title": "Lorem, ipsum dolor.",
-		"description": "work",
 		"images": [
 			"./assets/gallery/IMG_41.jpg",
 			"./assets/gallery/IMG_42.jpg",
@@ -86,8 +77,6 @@
 	{
 		"thumbnail": "./assets/gallery/IMG_59.jpg",
 		"id": 7,
-		"title": "Lorem, ipsum dolor.",
-		"description": "work",
 		"images": [
 			"./assets/gallery/IMG_50.jpg",
 			"./assets/gallery/IMG_52.jpg",
@@ -103,8 +92,6 @@
 	{
 		"thumbnail": "./assets/gallery/IMG_66.jpg",
 		"id": 8,
-		"title": "Lorem, ipsum dolor.",
-		"description": "work",
 		"images": [
 			"./assets/gallery/IMG_60.jpg",
 			"./assets/gallery/IMG_61.jpg",
@@ -118,8 +105,6 @@
 	{
 		"thumbnail": "./assets/gallery/IMG_78.jpg",
 		"id": 9,
-		"title": "Lorem, ipsum dolor.",
-		"description": "work",
 		"images": [
 			"./assets/gallery/IMG_67.jpg",
 			"./assets/gallery/IMG_68.jpg",
@@ -138,22 +123,16 @@
 	{
 		"thumbnail": "./assets/gallery/IMG_81.jpg",
 		"id": 10,
-		"title": "Lorem, ipsum dolor.",
-		"description": "work",
 		"images": ["./assets/gallery/IMG_80.jpg", "./assets/gallery/IMG_81.jpg"]
 	},
 	{
 		"thumbnail": "./assets/gallery/IMG_83.jpg",
 		"id": 11,
-		"title": "Lorem, ipsum dolor.",
-		"description": "work",
 		"images": ["./assets/gallery/IMG_82.jpg", "./assets/gallery/IMG_83.jpg"]
 	},
 	{
 		"thumbnail": "./assets/gallery/IMG_91.jpg",
 		"id": 12,
-		"title": "Lorem, ipsum dolor.",
-		"description": "work",
 		"images": [
 			"./assets/gallery/IMG_87.jpg",
 			"./assets/gallery/IMG_88.jpg",
@@ -163,22 +142,16 @@
 	{
 		"thumbnail": "./assets/gallery/IMG_93.jpg",
 		"id": 13,
-		"title": "Lorem, ipsum dolor.",
-		"description": "work",
 		"images": ["./assets/gallery/IMG_92.jpg", "./assets/gallery/IMG_93.jpg"]
 	},
 	{
 		"thumbnail": "./assets/gallery/IMG_90.jpg",
 		"id": 14,
-		"title": "Lorem, ipsum dolor.",
-		"description": "work",
 		"images": ["./assets/gallery/IMG_89.jpg", "./assets/gallery/IMG_90.jpg"]
 	},
 	{
 		"thumbnail": "./assets/gallery/IMG_27.jpg",
 		"id": 15,
-		"title": "Lorem, ipsum dolor.",
-		"description": "work",
 		"images": [
 			"./assets/gallery/IMG_21.jpg",
 			"./assets/gallery/IMG_22.jpg",

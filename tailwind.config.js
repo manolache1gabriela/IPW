@@ -8,7 +8,7 @@ export default {
 					'rgba(50, 50, 93, 0.25) 0px 50px 100px -40px, rgba(0, 0, 0, 0.3) 0px 30px 60px -40px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset',
 			},
 			backgroundImage: {
-				'hero-image': "url('./assets/excavator.jpg')",
+				'hero-image': "url('./assets/swing.jpg')",
 				'logo-image': "url('./assets/logo1.svg')",
 				'project-page': "url('./assets/project-page.jpg')",
 				'open-button': "url('./assets/open-details.svg')",
