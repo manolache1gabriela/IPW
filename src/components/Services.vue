@@ -1,13 +1,13 @@
 <template>
-	<div class="w-full min-h-fit md:h-[90vh] relative my-5">
+	<div class="w-full md:min-h-[90vh] relative my-5">
 		<div
 			class="absolute top-[-11.1%]"
 			id="mogelijkheden"></div>
-		<div class="w-full h-full md:flex justify-center items-center">
+		<div class="w-full min-h-fit md:flex justify-center items-center px-4">
 			<div
-				class="w-full lg:w-2/3 h-full md:flex justify-evenly items-center py-[8%] gap-10">
+				class="w-full xl:w-3/4 min-h-fit h-full md:flex justify-evenly items-center py-[8%] gap-10">
 				<div
-					class="w-full md:w-1/3 md:h-full px-5 flex flex-col items-start justify-start gap-5 md:gap-10">
+					class="w-full md:w-1/3 min-h-fit md:h-full px-5 flex flex-col items-start justify-start gap-5 md:gap-10 self-start">
 					<div class="flex flex-col justify-center gap-5 md:gap-10">
 						<h4 class="text-3xl md:text-4xl font-semibold">
 							Waarom zou u voor ons kiezen?
@@ -22,17 +22,17 @@
 					<button class="w-fit">
 						<a
 							href="#contact"
-							class="text-secondary uppercase font-semibold border-4 border-secondary hover:border-primary hover:text-text text-base lg:text-xl px-6 md:px-4 lg:px-12 py-1 lg:py-2">
+							class="text-secondary uppercase font-semibold border-4 border-secondary hover:border-primary hover:text-text text-base lg:text-lg px-6 md:px-4 lg:px-12 py-1 lg:py-2">
 							Neem contact op
 						</a>
 					</button>
 				</div>
 				<div
-					class="w-full md:w-2/3 min-h-fit md:h-full bg-gray-100 px-10 py-8 flex flex-col justify-evenly">
+					class="w-full md:w-2/3 min-h-[50vh] bg-gray-100 px-10 py-8 flex flex-col justify-evenly">
 					<details
 						v-for="(service, index) in services"
 						:key="index"
-						class="select-none border-b-2 border-white">
+						class="select-none min-h-fit border-b-2 border-white">
 						<summary
 							class="list-none cursor-pointer flex items-center justify-between font-semibold text-lg mb-4">
 							{{ service.summary }}

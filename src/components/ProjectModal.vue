@@ -1,12 +1,21 @@
 <template>
 	<div
 		v-show="currentProject"
+		:class="currentProject ? ' project-open' : ''"
 		@keydown.left="changeImage('minus')"
 		@keydown.right="changeImage('plus')"
 		class="absolute top-0 left-0 w-full h-full flex justify-center items-center">
 		<dialog
-			class="w-full md:w-3/4 lg:w-1/2 h-1/2 md:h-3/4 z-10 backdrop:bg-black backdrop:opacity-80"
+			class="w-full md:w-3/4 lg:w-1/2 h-1/2 md:h-3/4 z-10 backdrop:bg-black/80 focus:outline-none"
 			ref="dialog"
+			id="dialog"
+			@click="
+				(e) => {
+					if (e.target.id == 'dialog') {
+						closeModal();
+					}
+				}
+			"
 			@close="closeModal()">
 			<div
 				v-if="currentProject"
