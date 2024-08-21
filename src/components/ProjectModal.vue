@@ -5,7 +5,7 @@
 		@keydown.right="changeImage('plus')"
 		class="absolute top-0 left-0 w-full h-full flex justify-center items-center">
 		<dialog
-			class="w-full md:w-3/4 h-1/2 md:h-3/4 z-10 backdrop:bg-black backdrop:opacity-80"
+			class="w-full md:w-3/4 lg:w-1/2 h-1/2 md:h-3/4 z-10 backdrop:bg-black backdrop:opacity-80"
 			ref="dialog"
 			@close="closeModal()">
 			<div
@@ -47,7 +47,7 @@
 						</button>
 					</div>
 					<div
-						class="w-full h-full bg-cover bg-center"
+						class="w-full h-full bg-contain bg-center bg-no-repeat bg-primary"
 						:style="`background-image: url('${currentProject.images[imageIndex]}')`"></div>
 				</div>
 				<div

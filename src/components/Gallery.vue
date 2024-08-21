@@ -52,7 +52,7 @@
 <script setup>
 	import ProjectModal from './ProjectModal.vue';
 	import { ref } from 'vue';
-	import projects from '../assets/gallery-projects.json';
+	import projects from '../contents/gallery-projects.json';
 
 	let showAll = ref(false);
 	function viewAllPhotos() {

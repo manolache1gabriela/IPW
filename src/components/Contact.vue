@@ -131,12 +131,12 @@
 </script>
 
 <style>
-	@media (min-width: 1024px) {
+	@media (min-width: 1440px) {
 		.logo-bg {
 			background-image: url('../assets/logo1.svg');
-			background-size: 95%;
+			background-size: 90%;
 			background-blend-mode: luminosity;
-			background-position: 600% -25%;
+			background-position: bottom 140% right -250%;
 			background-repeat: no-repeat;
 		}
 	}
