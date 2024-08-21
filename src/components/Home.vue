@@ -1,9 +1,9 @@
 <template>
 	<div class="md:w-full md:h-[90vh] flex flex-col lg:flex-row">
 		<div
-			class="w-full h-[90%] md:h-[80%] lg:h-full lg:w-3/4 bg-hero-image bg-cover bg-top">
+			class="w-full h-[90%] md:h-[75%] lg:h-full lg:w-3/4 bg-hero-image bg-cover bg-top">
 			<div
-				class="w-full h-full md:py-20 bg-black bg-opacity-65 flex justify-center items-center">
+				class="w-full h-full py-4 md:py-20 bg-black bg-opacity-65 flex justify-center items-center">
 				<div
 					class="flex flex-col justify-center items-start gap-10 w-full h-full md:w-4/5 md:h-2/3 px-4">
 					<h1
@@ -29,7 +29,7 @@
 			</div>
 		</div>
 		<div
-			class="w-full md:h-[20%] lg:h-full lg:w-1/4 bg-secondary flex flex-col justify-between lg:justify-evenly items-start md:items-center lg:items-start px-5 xl:px-16 gap-5 py-5 xl:py-28">
+			class="w-full md:h-[22%] lg:h-full lg:w-1/4 bg-secondary flex flex-col justify-center lg:justify-evenly items-start md:items-center lg:items-start px-5 xl:px-16 gap-2 lg:gap-5 py-5 xl:py-28">
 			<h2
 				class="text-text text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold drop-shadow animate-fade-left animate-duration-500 animate-ease-in">
 				Onze diensten
