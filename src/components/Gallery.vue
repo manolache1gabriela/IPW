@@ -58,7 +58,7 @@
 	function viewAllPhotos() {
 		showAll.value = !showAll.value;
 		if (!showAll.value) {
-			window.location = '#portfolio';
+			window.location = '#projecten';
 		}
 	}
 

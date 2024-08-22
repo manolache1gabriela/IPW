@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-	content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+	content: ['./index.html','./thanks.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
 	theme: {
 		extend: {
 			boxShadow: {
@@ -10,6 +10,7 @@ export default {
 			backgroundImage: {
 				'hero-image': "url('./assets/swing.jpg')",
 				'logo-image': "url('./assets/logo1.svg')",
+				'thanks': "url('./assets/wood.jpg')",
 				'project-page': "url('./assets/project-page.jpg')",
 				'open-button': "url('./assets/open-details.svg')",
 			},
