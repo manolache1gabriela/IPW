@@ -65,7 +65,6 @@
 		'Visie',
 		'Projecten',
 		'Over Ons',
-		'Mogelijkheden',
 		'Contact',
 	]);
 

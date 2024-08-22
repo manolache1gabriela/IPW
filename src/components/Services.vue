@@ -57,7 +57,7 @@
 		{
 			summary: 'Kwalitatieve materialen',
 			details:
-				'Wij werken uitsluitend met materialen van topkwaliteit om duurzame en betrouwbare resultaten te garanderen. Elk project, groot of klein, verdient de beste basis om lang mee te gaan. Door te investeren in kwaliteit, zorgen we voor tevreden klanten en langdurige resultaten.',
+				'Wij werken uitsluitend met materialen van topkwaliteit om duurzame en betrouwbare resultaten te garanderen. Elk project, groot of klein, verdient de beste basis om lang mee te gaan. Door te investeren in kwaliteit, zorgen we voor tevreden klanten.',
 		},
 		{
 			summary: 'Professioneel gereedschap',
@@ -74,5 +74,14 @@
 <style>
 	details[open] summary div {
 		background-image: url('../assets/close-details.svg');
+	}
+	@media (min-width: 1440px) {
+		.logo-bg {
+			background-image: url('../assets/logo1.svg');
+			background-size: 90%;
+			background-blend-mode: luminosity;
+			background-position: bottom 140% right -250%;
+			background-repeat: no-repeat;
+		}
 	}
 </style>
