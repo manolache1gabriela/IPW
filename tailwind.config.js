@@ -11,7 +11,6 @@ export default {
 				'hero-image': "url('./assets/swing.jpg')",
 				'logo-image': "url('./assets/logo1.svg')",
 				'thanks': "url('./assets/wood.jpg')",
-				'project-page': "url('./assets/project-page.jpg')",
 				'open-button': "url('./assets/open-details.svg')",
 			},
 			colors: {

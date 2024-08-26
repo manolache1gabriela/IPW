@@ -3,9 +3,23 @@
 		<div
 			class="absolute top-[-11.1%]"
 			id="overons"></div>
-		<div
-			class="w-full md:w-2/3 min-h-[50vh] md:h-full bg-project-page bg-cover bg-center"></div>
-		<div class="flex flex-col items-center md:w-2/3 h-full">
+			<ImgComparisonSlider class="md:w-1/2 focus:outline-none">
+    <!-- eslint-disable -->
+    <img
+      slot="first"
+			class='md:min-h-[90vh]'
+			src="../assets/IMG_61.jpg"
+    />
+    <img
+      slot="second"
+			class='md:min-h-[90vh]'
+      src="../assets/IMG_66.jpg"
+    />
+    <!-- eslint-enable -->
+  </ImgComparisonSlider>
+		<!-- <div
+			class="w-full md:w-2/3 min-h-[50vh] md:h-full bg-project-page bg-cover bg-center"></div> -->
+		<div class="flex flex-col items-center md:w-2/3 lg:w-1/2 h-full md:h-[90vh]">
 			<div
 				class="w-full md:h-4/5 bg-white flex flex-col items-start justify-center gap-5 md:gap-7 lg:gap-14 text-text py-5 px-4 lg:p-10">
 				<h2
@@ -44,14 +58,14 @@
 					</button> -->
 				</div>
 			</div>
-			<div class="w-full h-1/5 bg-secondary flex justify-center">
-				<div
-					class="w-1/2 text-text flex flex-col items-center justify-between md:justify-center gap-3 py-2">
+			<div class="w-full h-1/5 bg-text flex justify-center">
+				<!-- <div
+					class="w-1/2 bg-secondary text-text flex flex-col items-center justify-between md:justify-center gap-3 py-2">
 					<h2 class="text-3xl md:text-4xl lg:text-5xl font-semibold">12</h2>
 					<h4 class="text-md md:text-base text-center font-semibold uppercase">
 						Years Established
 					</h4>
-				</div>
+				</div> -->
 				<div
 					class="w-1/2 bg-text text-white flex flex-col items-center justify-between md:justify-center gap-3 py-2">
 					<h2 class="text-3xl md:text-4xl lg:text-5xl font-semibold">30+</h2>
@@ -63,3 +77,13 @@
 		</div>
 	</div>
 </template>
+<script>
+import { ImgComparisonSlider } from '@img-comparison-slider/vue';
+
+export default {
+  name: 'ExampleComponent',
+  components: {
+    ImgComparisonSlider,
+  },
+};
+</script>
