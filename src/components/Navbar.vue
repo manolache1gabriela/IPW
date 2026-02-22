@@ -1,16 +1,14 @@
 <template>
-	<div
-		class="w-full md:sticky z-20 top-0 px-2 md:px-10 py-1 bg-white flex items-center justify-between shadow-md">
-		<div class="h-full">
+	<div class="w-full md:sticky z-20 top-0 px-2 md:px-10 py-2 bg-white flex items-center justify-between shadow-md">
+		<div class="h-full flex items-center gap-4">
 			<a
-				class="h-full w-full flex items-center justify-center gap-4 text-gray-400 hover:text-secondary"
+				class="h-full flex items-center justify-center gap-4 text-secondary"
 				href="/">
 				<img
-					class="h-24 grayscale hover:filter-none"
+					class="h-24 "
 					src="../assets/logo1.svg"
-					alt="company logo" />
-				<h1
-					class="hidden w-full lg:block text-xl md:text-2xl lg:text-3xl font-semibold">
+					alt="IP Werken logo" />
+				<h1 class="hidden w-full lg:block text-xl md:text-2xl lg:text-3xl font-semibold">
 					IP Werken
 				</h1>
 			</a>
@@ -23,7 +21,24 @@
 					:key="index">
 					<a :href="'#' + link.toLowerCase().split(' ').join('')">{{ link }}</a>
 				</li>
+				<li>
+					<a href="tel:+32467864650" class="md:inline text-xl text-secondary hover:text-primary">
+						<div class="flex items-center py-2">
+							<img class="px-2" src="../assets/phone.svg" alt="phone icon" />
+							<span>+32 467 86 46 50</span>
+						</div>
+					</a>
+					<a
+						href="mailto:info@ipwerken.be"
+						class="md:inline text-xl text-secondary hover:text-primary">
+						<div class="flex items-center py-2">
+							<img class="px-2" src="../assets/mail.svg" alt="mail icon" />
+							<span>info@ipwerken.be</span>
+						</div>
+					</a>
+				</li>
 			</ul>
+
 		</div>
 		<div class="md:hidden">
 			<button
@@ -52,6 +67,11 @@
 					v-for="(link, index) in links"
 					:key="index">
 					<a :href="'#' + link.toLowerCase().split(' ').join('')">{{ link }}</a>
+				</li>
+				<li>
+					<a href="tel:+32467864650" class="md:inline text-xl text-gray-600">
+						Tel: +32 467 86 46 50
+					</a>
 				</li>
 			</ul>
 		</div>

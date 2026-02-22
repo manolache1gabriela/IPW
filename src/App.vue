@@ -4,6 +4,7 @@
 	import Gallery from './components/Gallery.vue';
 	import Services from './components/Services.vue';
 	import Navbar from './components/Navbar.vue';
+import Introduction from './components/Introduction.vue';
 </script>
 
 <template>

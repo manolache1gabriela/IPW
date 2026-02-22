@@ -23,7 +23,7 @@
 						<a
 							href="#contact"
 							class="text-secondary uppercase font-semibold border-4 border-secondary hover:border-primary hover:text-text text-base lg:text-lg px-6 md:px-4 lg:px-12 py-1 lg:py-2">
-							Neem contact op
+							Vraag offerte
 						</a>
 					</button>
 				</div>

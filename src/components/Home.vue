@@ -6,24 +6,24 @@
 				class="w-full h-full py-4 md:py-20 bg-black bg-opacity-65 flex justify-center items-center">
 				<div
 					class="flex flex-col justify-center items-start gap-10 w-full h-full md:w-4/5 md:h-2/3 px-4">
-					<h1
-						class="text-4xl md:text-6xl lg:text-8xl font-semibold text-white border-l-[12px] border-secondary py-3 pl-4 md:pl-10">
-						Visie
+					<!-- added hero copy and call to action -->
+					<h1 class="text-3xl md:text-5xl lg:text-6xl font-bold text-white">
+						Tuinaanleg Antwerpen – van grondwerken tot volledige tuinaanleg
 					</h1>
-					<p class="text-white text-lg md:text-xl lg:text-2xl w-full">
+
+					<p class="hidden md:block text-white text-lg md:text-xl lg:text-2xl w-full">
 						Bij IPW staan kwaliteit, vakmanschap en klanttevredenheid centraal
 						in alles wat we doen. We bieden een breed scala aan diensten,
 						waaronder grondwerken, tuinbouw, renovatie, afbraak en transport,
 						waarbij we elke opdracht met de grootste zorg uitvoeren.
-						<!-- <span class="block text-base md:text-lg lg:text-xl mt-2">
-							Ons doel is om duurzame, efficiënte en esthetische oplossingen te
-							leveren die aan al uw verwachtingen voldoen.
-						</span> -->
 					</p>
-					<a
-						href="#projecten"
-						class="uppercase font-semibold bg-secondary hover:bg-primary text-white text-md md:text-xl px-7 md:px-14 py-2 md:py-3">
-						Bekijk ons werk
+
+					<p class="text-secondary text-lg md:text-xl lg:text-2xl w-full">
+						- Eigen machines. Duidelijke afspraken. Sterke tuinen.
+					</p>
+
+					<a href="#contact" class="uppercase font-semibold bg-secondary hover:bg-primary text-white text-md md:text-xl px-7 md:px-14 py-2 md:py-3">
+						Vraag gratis offerte
 					</a>
 				</div>
 			</div>
