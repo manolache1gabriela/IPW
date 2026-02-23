@@ -1,10 +1,9 @@
 <script setup>
-	import Home from './components/Home.vue';
-	import ProjectPage from './components/About.vue';
-	import Gallery from './components/Gallery.vue';
-	import Services from './components/Services.vue';
-	import Navbar from './components/Navbar.vue';
-import Introduction from './components/Introduction.vue';
+import Home from './components/Home.vue';
+import ProjectPage from './components/About.vue';
+import Gallery from './components/Gallery.vue';
+import Services from './components/Services.vue';
+import Navbar from './components/Navbar.vue';
 </script>
 
 <template>
