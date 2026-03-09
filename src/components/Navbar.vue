@@ -1,99 +1,113 @@
 <template>
-	<div class="w-full md:sticky z-20 top-0 px-2 md:px-10 py-2 bg-white flex items-center justify-between shadow-md">
-		<div class="h-full flex items-center gap-4">
-			<a
-				class="h-full flex items-center justify-center gap-4 text-secondary"
-				href="/">
-				<img
-					class="h-24 "
-					src="../assets/logo1.svg"
-					alt="IP Werken logo" />
-				<h1 class="hidden w-full lg:block text-xl md:text-2xl lg:text-3xl font-semibold">
-					IP Werken
-				</h1>
-			</a>
-		</div>
-		<div class="hidden h-full md:flex items-center">
-			<ul class="flex gap-5 items-center">
-				<li
-					class="hover:cursor-pointer py-2 text-gray-400 text-xl lg:text-2xl hover:text-secondary font-semibold"
-					v-for="(link, index) in links"
-					:key="index">
-					<a :href="'#' + link.toLowerCase().split(' ').join('')">{{ link }}</a>
-				</li>
-				<li>
-					<a href="tel:+32467864650" class="md:inline text-xl text-secondary hover:text-primary">
-						<div class="flex items-center py-2">
-							<img class="px-2" src="../assets/phone.svg" alt="phone icon" />
-							<span>+32 467 86 46 50</span>
-						</div>
-					</a>
-					<a
-						href="mailto:info@ipwerken.be"
-						class="md:inline text-xl text-secondary hover:text-primary">
-						<div class="flex items-center py-2">
-							<img class="px-2" src="../assets/mail.svg" alt="mail icon" />
-							<span>info@ipwerken.be</span>
-						</div>
-					</a>
-				</li>
-			</ul>
+  <div class="w-full lg:sticky z-20 top-0 px-6 md:px-10 lg:px-16 py-3 bg-white flex items-center justify-between border-b border-gray-100">
 
-		</div>
-		<div class="md:hidden">
-			<button
-				@click="openMenu"
-				class="w-8 cursor-pointer">
-				<img
-					src="../assets/menu.svg"
-					alt="menu icon" />
-			</button>
-		</div>
-	</div>
-	<div
-		class="absolute top-0 min-h-screen z-10 bg-secondary w-full text-4xl flex-col justify-center items-center gap-5 animate-open-menu origin-top"
-		:class="open ? 'flex nav-open' : ' hidden '">
-		<button class="absolute z-40 top-8 right-8 w-8">
-			<img
-				@click="closeMenu"
-				src="../assets/close.svg"
-				alt="menu icon" />
-		</button>
-		<div class="p-10">
-			<ul class="flex flex-col justify-center items-center gap-7">
-				<li
-					@click="closeMenu"
-					class="hover:cursor-pointer text-text text-3xl hover:text-primary"
-					v-for="(link, index) in links"
-					:key="index">
-					<a :href="'#' + link.toLowerCase().split(' ').join('')">{{ link }}</a>
-				</li>
-				<li>
-					<a href="tel:+32467864650" class="md:inline text-xl text-gray-600">
-						Tel: +32 467 86 46 50
-					</a>
-				</li>
-			</ul>
-		</div>
-	</div>
+    <!-- Logo -->
+    <div class="flex items-center gap-3">
+      <RouterLink to="/" class="flex items-center gap-3 text-secondary hover:text-primary transition duration-300">
+        <img class="shrink-0 h-16 md:h-20" src="../assets/logo1.svg" alt="IP Werken logo" />
+        <h1 class="hidden xl:block text-lg md:text-xl lg:text-2xl font-bold">
+          IP Werken
+        </h1>
+      </RouterLink>
+    </div>
+
+    <!-- Desktop Navigation -->
+    <div class="hidden lg:flex items-center">
+
+      <ul class="flex gap-8 md:gap-6 items-center text-lg font-semibold">
+        <li>
+          <RouterLink to="/" class="text-gray-700 hover:text-secondary transition duration-300" active-class="text-secondary">
+            Visie
+          </RouterLink>
+        </li>
+
+        <li>
+          <RouterLink
+              to="/services" class="text-gray-600 hover:text-secondary transition duration-300 font-semibold flex items-center gap-1" active-class="text-secondary">
+            Services
+          </RouterLink>
+        </li>
+
+        <!-- Home Sections Anchors -->
+        <li>
+          <RouterLink to="/#projecten" class="text-gray-600 hover:text-secondary transition duration-300">
+            Projecten
+          </RouterLink>
+        </li>
+
+        <li>
+          <RouterLink to="/#overons" class="text-gray-600 hover:text-secondary transition duration-300">
+            Over Ons
+          </RouterLink>
+        </li>
+
+        <li>
+          <RouterLink to="/#mogelijkheden" class="text-gray-600 hover:text-secondary transition duration-300">
+            Mogelijkheden
+          </RouterLink>
+        </li>
+
+        <li>
+          <RouterLink to="/#contact" class="text-gray-600 hover:text-secondary transition duration-300">
+            Contact
+          </RouterLink>
+        </li>
+
+
+
+
+		<li>
+			<!-- Contact Info -->
+			<div class="flex flex-col gap-2 items-start">
+				<a href="tel:+32467864650" class="text-secondary hover:text-primary transition duration-300 text-base flex items-center gap-2">
+				<img class="h-5 w-5" src="../assets/phone.svg" alt="phone icon" />
+				+32 467 86 46 50
+				</a>
+
+				<a href="mailto:info@ipwerken.be" class="text-secondary hover:text-primary transition duration-300 text-base flex items-center gap-2">
+				<img class="h-5 w-5" src="../assets/mail.svg" alt="mail icon" />
+				info@ipwerken.be
+				</a>
+			</div>
+		</li>
+      </ul>
+
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <div class="lg:hidden">
+      <button @click="open = true" class="w-8 h-8 hover:opacity-70 transition duration-300">
+        <img src="../assets/menu.svg" alt="menu icon" />
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div
+    class="fixed inset-0 top-0 min-h-screen z-10 bg-secondary w-full text-3xl flex-col justify-center items-center gap-6 text-white animate-open-menu"
+    :class="open ? 'flex' : 'hidden'"
+  >
+    <button class="absolute top-8 right-8 w-8 h-8 hover:opacity-70 transition duration-300" @click="open = false">
+      <img src="../assets/close.svg" alt="close icon" />
+    </button>
+
+    <!-- Home Sections Anchors -->
+    <RouterLink to="/#visie" @click="open = false" active-class="underline">Visie</RouterLink>
+    <RouterLink to="/services" @click="open = false" active-class="underline">Services</RouterLink>
+    <RouterLink to="/#projecten" @click="open = false">Projecten</RouterLink>
+    <RouterLink to="/#overons" @click="open = false">Over Ons</RouterLink>
+    <RouterLink to="/#mogelijkheden" @click="open = false">Mogelijkheden</RouterLink>
+    <RouterLink to="/#contact" @click="open = false">Contact</RouterLink>
+
+    <!-- Phone -->
+    <a href="tel:+32467864650" class="mt-6 text-2xl text-white  border-4 border-white px-6 py-2">
+      Tel: +32 467 86 46 50
+    </a>
+  </div>
 </template>
 
 <script setup>
-	import { ref } from 'vue';
+import { ref } from 'vue'
 
-	const links = ref([
-		'Visie',
-		'Projecten',
-		'Over Ons',
-		'Contact',
-	]);
-
-	let open = ref(false);
-
-	function openMenu() {
-		open.value = !open.value;
-	}
-	function closeMenu() {
-		openMenu();
-	}
+const open = ref(false) // mobile menu
 </script>

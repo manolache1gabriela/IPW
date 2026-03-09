@@ -10,14 +10,37 @@
             rel="stylesheet"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>IPWerken</title>
+        <title>
+            IPWerken - Tuinafsluitingen, tuinspeelplaatsen, tuinaanleg en
+            sloopwerken in Antwerpen
+        </title>
+        <meta
+            name="description"
+            content="IPWerken is een toonaangevend bedrijf in Antwerpen dat zich toelegt op het leveren van hoogwaardige tuinafsluitingen, tuinspeelplaatsen, tuinaanleg en sloopwerken. Onze missie is om duurzame en esthetische oplossingen te bieden die de buitenruimtes van onze klanten transformeren en verbeteren. We streven ernaar om met vakmanschap, innovatie en klantgerichtheid de verwachtingen van onze klanten te overtreffen en bij te dragen aan het creëren van prachtige en functionele tuinen in Antwerpen en omgeving."
+        />
+
+        <!-- Google tag (gtag.js) -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-XCDG614FQW"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'G-XCDG614FQW');
+        </script>
     </head>
-    <body class="w-full h-full font-rubik no-scrollbar">
+    <body class="w-screen h-screen font-rubik no-scrollbar">
         <div class="w-full min-h-fit no-scrollbar scroll-smooth" id="app"></div>
-        <div class="w-full min-h-fit md:h-[87vh] md:flex relative">
+
+        <div class="w-full min-h-full md:h-[87vh] md:flex relative">
             <div class="absolute top-[-11.1%]" id="contact"></div>
             <div
-                class="w-full md:w-1/2 bg-secondary flex flex-col justify-center gap-10 py-5 md:py-0 px-5 lg:px-5 xl:px-40"
+                class="w-full md:w-1/2 bg-secondary flex flex-col justify-center gap-10 py-5 md:py-0 px-5 lg:px-24"
             >
                 <h4 class="text-white text-5xl font-semibold drop-shadow">
                     Contacteer Ons
@@ -56,19 +79,21 @@
                         placeholder="Bericht"
                         class="col-span-2 w-full row-span-2 px-4 py-4"
                     ></textarea>
-                    <button
-                        class="mt-4 w-fit text-white uppercase font-semibold border-4 border-white hover:border-text hover:text-text text-md md:text-lg col-start-2 py-2 px-4 md:px-8 md:place-self-end"
-                        type="submit"
-                    >
-                        Stuur bericht
-                    </button>
+                    <div class="lg:col-span-2 flex justify-end">
+                        <button
+                            class="inline-block whitespace-nowrap rounded-sm text-white uppercase font-semibold border-4 border-white hover:border-text text-center text-md md:text-lg py-2 px-8"
+                            type="submit"
+                        >
+                            Stuur bericht
+                        </button>
+                    </div>
                 </form>
             </div>
             <div
-                class="w-full md:w-1/2 bg-text flex flex-col justify-center items-center"
+                class="w-full md:w-1/2 bg-text flex md:flex-col justify-between items-center"
             >
                 <div
-                    class="w-full lg:w-1/2 py-5 md:py-0 md:h-[20%] flex justify-evenly xl:justify-between items-center"
+                    class="w-full flex flex-col md:flex-row justify-between items-center px-10 lg:px-16 m-auto gap-8"
                 >
                     <a
                         href="https://www.facebook.com/profile.php?id=61563783506446"
@@ -112,7 +137,7 @@
                     </a>
                 </div>
                 <div
-                    class="logo-bg w-full md:h-[80%] bg-white md:pt-20 px-5 py-5 lg:pl-10 xl:pl-28 flex flex-col items-start gap-2 xl:relative md:gap-8"
+                    class="logo-bg w-full flex flex-col items-start md:h-[80%] bg-white md:pt-20 px-5 py-5 lg:pl-10 xl:pl-28 gap-2 xl:relative md:gap-8"
                 >
                     <div class="flex items-center justify-start gap-6">
                         <img
@@ -152,17 +177,11 @@
                         >
                     </div>
                     <div
-                        class="w-48 lg:hidden xl:w-1/2 h-48 xl:h-full bg-logo-image md:mt-10 lg:mt-0 bg-contain bg-no-repeat xl:absolute bottom-0 right-0 self-center xl:self-end bg-right"
+                        class="w-48 lg:hidden xl:w-1/2 h-48 xl:h-full bg-logo-image md:mt-10 lg:mt-0 bg-contain bg-no-repeat xl:absolute self-center xl:self-end bg-right"
                     ></div>
                 </div>
             </div>
         </div>
-        <!-- <script>
-		function submit(e){
-			e.preventDefault();
-			window.location('/thanks.html')
-		}
-		</script> -->
         <script type="module" src="./src/main.js"></script>
     </body>
 </html>

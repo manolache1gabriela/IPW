@@ -1,76 +1,68 @@
 <template>
-	<div class="w-full md:h-[90vh] md:flex justify-center items-center relative">
-		<div
-			class="absolute top-[-11.1%]"
-			id="overons"></div>
-			<ImgComparisonSlider class="md:w-1/2 focus:outline-none">
-    <!-- eslint-disable -->
-    <img
-      slot="first"
-			class='md:min-h-[90vh]'
-			src="../assets/IMG_61.jpg"
-    />
-    <img
-      slot="second"
-			class='md:min-h-[90vh]'
-      src="../assets/IMG_66.jpg"
-    />
-    <!-- eslint-enable -->
-  </ImgComparisonSlider>
-		<!-- <div
-			class="w-full md:w-2/3 min-h-[50vh] md:h-full bg-project-page bg-cover bg-center"></div> -->
-		<div class="flex flex-col items-center md:w-2/3 lg:w-1/2 h-full md:h-[90vh]">
+	<div class="w-full md:h-[90vh] lg:flex justify-center items-center relative  bg-gray-100">
+		<div class="absolute top-[-11.1%]" id="overons"></div>
+		<ImgComparisonSlider class="lg:w-1/2 focus:outline-none">
+			<!-- eslint-disable -->
+			<img slot="first" class='md:min-h-[90vh]' src="../assets/IMG_61.jpg" />
+			<img slot="second" class='md:min-h-[90vh]' src="../assets/IMG_66.jpg"/>
+			<!-- eslint-enable -->
+		</ImgComparisonSlider>
+		<div class="flex flex-col items-center lg:w-1/2 h-full md:h-[90vh]">
 			<div
-				class="w-full md:h-4/5 bg-white flex flex-col items-start justify-center gap-5 md:gap-7 lg:gap-14 text-text py-5 px-4 lg:p-10">
+				class="container mx-auto w-full md:h-4/5 flex flex-col items-start justify-center gap-6 md:gap-8 lg:gap-12 text-gray-900 py-8 px-6 md:px-8 lg:px-12">
 				<h2
-					class="text-3xl md:text-4xl xl:text-5xl capitalize font-semibold drop-shadow">
-					<span class="xl:border-b-4 border-secondary pb-3">Over</span>
+					class="text-3xl md:text-4xl font-semibold drop-shadow leading-tight">
+					<span class="xl:border-b-4 border-secondary pb-2">Over</span>
 					ons
 				</h2>
 				<div
-					class="flex flex-col gap-5 md:grid grid-cols-2 md:gap-5 lg:gap-14 text-lg md:text-base xl:text-lg font-light">
-					<p>
-						<span class="font-semibold">Klantgericht:</span>
-						Wij luisteren naar de wensen van onze klanten en bieden oplossingen
-						op maat. Uw tevredenheid is onze hoogste prioriteit, en we werken
-						nauw met u samen om uw visie te realiseren. Elke stap in het proces
-						is gericht op het behalen van een resultaat dat aan uw verwachtingen
-						voldoet.
-					</p>
-					<p>
-						<span class="font-semibold">Doelgericht & Doeltreffend:</span>
-						IPW werkt efficiënt en resultaatgericht om uw projecten tijdig en
-						binnen budget af te ronden. We zetten ons in om elke opdracht snel
-						en effectief uit te voeren, zonder concessies te doen aan de
-						kwaliteit. Onze aanpak is altijd gericht op het behalen van uw
-						doelen.
-					</p>
-					<!-- <p class="">
+					class="flex flex-col gap-6 md:grid grid-cols-2 md:gap-6 lg:gap-10 text-base md:text-sm lg:text-base leading-relaxed">
+					<div class="space-y-2">
+						<h3 class="font-bold text-lg text-secondary">Klantgericht</h3>
+						<p class="text-gray-700">
+							Wij luisteren naar de wensen van onze klanten en bieden oplossingen
+							op maat. Uw tevredenheid is onze hoogste prioriteit, en we werken
+							nauw met u samen om uw visie te realiseren. Elke stap in het proces
+							is gericht op het behalen van een resultaat dat aan uw verwachtingen
+							voldoet.
+						</p>
+					</div>
+					<div class="space-y-2">
+						<h3 class="font-bold text-lg text-secondary">Doelgericht & Doeltreffend</h3>
+						<p class="text-gray-700">
+							IPW werkt efficiënt en resultaatgericht om uw projecten tijdig en
+							binnen budget af te ronden. We zetten ons in om elke opdracht snel
+							en effectief uit te voeren, zonder concessies te doen aan de
+							kwaliteit. Onze aanpak is altijd gericht op het behalen van uw
+							doelen.
+						</p>
+					</div>
+					<!-- <p class=\"\">
 						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque,
 						non ipsam veritatis ipsum praesentium dolores.
 					</p> -->
-					<!-- <button class="w-fit h-fit">
+					<!-- <button class=\"w-fit h-fit\">
 						<a
-							href="#contact"
-							class="text-secondary uppercase font-semibold border-4 border-secondary hover:border-primary hover:text-text text-xl md:text-base lg:text-xl px-7 md:px-2 xl:px-14 py-2 xl:py-3">
+							href=\"#contact\"
+							class=\"text-secondary uppercase font-semibold border-4 border-secondary hover:border-primary hover:text-text text-xl md:text-base lg:text-xl px-7 md:px-2 xl:px-14 py-2 xl:py-3\">
 							Learn more
 						</a>
 					</button> -->
 				</div>
 			</div>
-			<div class="w-full h-1/5 bg-text flex justify-center">
-				<!-- <div
-					class="w-1/2 bg-secondary text-text flex flex-col items-center justify-between md:justify-center gap-3 py-2">
-					<h2 class="text-3xl md:text-4xl lg:text-5xl font-semibold">12</h2>
-					<h4 class="text-md md:text-base text-center font-semibold uppercase">
-						Years Established
-					</h4>
-				</div> -->
+			<div class="w-full h-1/5 bg-gray-900 flex justify-center">
 				<div
-					class="w-1/2 bg-text text-white flex flex-col items-center justify-between md:justify-center gap-3 py-2">
-					<h2 class="text-3xl md:text-4xl lg:text-5xl font-semibold">30+</h2>
-					<h4 class="text-md md:text-base text-center font-semibold uppercase">
-						afgeronde projecten
+					class="w-1/2 bg-secondary text-white flex flex-col items-center justify-between md:justify-center gap-2 py-6">
+					<h2 class="text-4xl md:text-5xl lg:text-6xl font-bold">75</h2>
+					<h4 class="text-md md:text-base text-center font-semibold uppercase tracking-wide">
+						tevreden klanten
+					</h4>
+				</div>
+				<div
+					class="w-1/2 text-white flex flex-col items-center justify-between md:justify-center gap-2 py-6">
+					<h2 class="text-4xl md:text-5xl lg:text-6xl font-bold">100+</h2>
+					<h4 class="text-base md:text-lg text-center font-semibold uppercase tracking-wide">
+						Afgeronde projecten
 					</h4>
 				</div>
 			</div>

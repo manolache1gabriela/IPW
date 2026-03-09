@@ -1,9 +1,7 @@
 <template>
 	<div
-		class="w-full min-h-[90%] px-5 lg:py-10 md:px-10 xl:px-20 flex justify-center items-center relative flex-col gap-4 md:gap-8 mt-5 lg:mt-0 mb-5">
-		<div
-			class="absolute lg:top-[-9%]"
-			id="projecten"></div>
+		class="container mx-auto min-h-screen px-5 lg:py-10 flex justify-center items-center relative flex-col gap-4 md:gap-8 mt-5 lg:mt-0 mb-5">
+		<div class="absolute lg:top-[-10%]" id="projecten"></div>
 		<h3 class="text-3xl md:text-4xl font-semibold capitalize drop-shadow">
 			Laatste projecten
 		</h3>
@@ -36,7 +34,7 @@
 		<button
 			@click="viewAllPhotos"
 			v-if="projects.length > 8"
-			class="text-secondary uppercase font-semibold border-4 border-secondary hover:border-primary hover:text-text text-xl px-14 py-3">
+			class="text-secondary uppercase font-semibold border-4 border-secondary hover:border-primary hover:text-text rounded-sm text-xl px-14 py-3">
 			{{ showAll ? 'Bekijk minder' : 'Bekijk meer' }}
 		</button>
 		<ProjectModal

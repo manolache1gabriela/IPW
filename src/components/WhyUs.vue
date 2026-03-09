@@ -1,18 +1,15 @@
 <template>
-	<div class="w-full md:min-h-[90vh] relative my-5">
-		<div
-			class="absolute top-[-11.1%]"
-			id="mogelijkheden"></div>
-		<div class="w-full min-h-fit md:flex justify-center items-center px-4">
-			<div
-				class="w-full xl:w-3/4 min-h-fit h-full md:flex justify-evenly items-center py-[8%] gap-10">
+	<div class="w-full relative bg-gray-100">
+		<div class="absolute top-[-14.2%]" id="mogelijkheden"></div>
+		<div class="w-full container mx-auto md:flex justify-center items-center">
+			<div class="w-full min-h-fit md:flex justify-evenly items-center px-6 py-[10%] gap-10">
 				<div
-					class="w-full md:w-1/3 min-h-fit md:h-full px-5 flex flex-col items-start justify-start gap-5 md:gap-10 self-start">
+					class="w-full md:w-1/3 min-h-fit md:h-full mb-10 md:mb-0 flex flex-col items-start justify-start gap-5 md:gap-10">
 					<div class="flex flex-col justify-center gap-5 md:gap-10">
 						<h4 class="text-3xl md:text-4xl font-semibold">
 							Waarom zou u voor ons kiezen?
 						</h4>
-						<div class="w-16 h-2 bg-secondary"></div>
+						<div class="w-16 h-1 bg-gradient-to-r from-secondary to-primary rounded-full"></div>
 					</div>
 					<p class="text-md md:text-lg font-light">
 						Dankzij onze veelzijdigheid en brede expertise kunnen we elk project
@@ -20,25 +17,24 @@
 						uitvoering, ongeacht de complexiteit van de opdracht.
 					</p>
 					<button class="w-fit">
-						<a
-							href="#contact"
-							class="text-secondary uppercase font-semibold border-4 border-secondary hover:border-primary hover:text-text text-base lg:text-lg px-6 md:px-4 lg:px-12 py-1 lg:py-2">
+						<a href="#contact"
+							class="text-secondary uppercase font-semibold border-4 border-secondary hover:border-primary hover:text-text text-base lg:text-lg px-6 md:px-4 lg:px-12 py-2 lg:py-4">
 							Vraag offerte
 						</a>
 					</button>
 				</div>
 				<div
-					class="w-full md:w-2/3 min-h-[50vh] bg-gray-100 px-10 py-8 flex flex-col justify-evenly">
+					class="w-full md:w-2/3 md:px-10 flex flex-col justify-evenly">
 					<details
 						v-for="(service, index) in services"
 						:key="index"
-						class="select-none min-h-fit border-b-2 border-white">
+						class="select-none min-h-fit border-b-2 border-gray-50 py-4">
 						<summary
-							class="list-none cursor-pointer flex items-center justify-between font-semibold text-lg mb-4">
+							class="list-none cursor-pointer flex items-center justify-between font-semibold text-lg">
 							{{ service.summary }}
 							<div class="w-6 h-6 rounded-full ml-1 bg-open-button"></div>
 						</summary>
-						<p>{{ service.details }}</p>
+						<p class="mt-4">{{ service.details }}</p>
 					</details>
 				</div>
 			</div>
