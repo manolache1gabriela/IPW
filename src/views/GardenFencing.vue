@@ -14,7 +14,10 @@
           <div class="w-20 h-1 bg-gradient-to-r from-secondary to-primary my-6 mx-auto lg:mx-0 rounded-full"></div>
 
           <p class="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
-            Bent u op zoek naar duurzame en stijlvolle tuinafsluitingen of sierhekken in Antwerpen? Bij ons vindt u een breed aanbod aan oplossingen die zowel veiligheid als esthetiek combineren. Van moderne metalen poorten tot klassieke houten schermen, wij helpen u de juiste keuze te maken voor uw tuin.
+            Bent u op zoek naar duurzame en stijlvolle tuinafsluitingen of sierhekken in Antwerpen? Bij ons vindt u een breed aanbod aan oplossingen die zowel veiligheid als esthetiek combineren.
+          </p>
+          <p class="hidden md:block text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
+            Van moderne metalen poorten tot klassieke houten schermen, wij helpen u de juiste keuze te maken voor uw tuin.
           </p>
 
           <div class="flex justify-center lg:justify-start">

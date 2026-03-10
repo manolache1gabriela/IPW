@@ -16,7 +16,7 @@
           <p class="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
             Een verzorgde tuin verhoogt niet alleen de waarde van je woning, maar zorgt ook voor rust en comfort. Wij helpen particulieren en bedrijven met professioneel tu, tuinaa en tu.
           </p>
-          <p class="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
+          <p class="hidden md:block text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
             Van kleine onderhoudswerken tot volledige tuinprojecten: ons team zorgt voor een resultaat dat perfect aansluit bij jouw wensen.
           </p>
 

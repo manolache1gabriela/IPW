@@ -39,7 +39,7 @@
     <section class="bg-gray-50 mx-auto px-6 sm:px-8 md:px-12 lg:px-16 py-16 md:py-24">
       <div class="max-w-4xl mx-auto">
         <h2 class="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
-          Tuinspeelplaatsen voor elke tuin
+          Speelplaatsen voor elke tuin in Antwerpen
         </h2>
         <p class="text-lg text-gray-700 mb-10 leading-relaxed">
           Een goede speelplaats in de tuin geeft kinderen ruimte om te bewegen, ontdekken en spelen. Wij bouwen tuinspeelplaatsen die passen bij de grootte van je tuin en de leeftijd van de kinderen.

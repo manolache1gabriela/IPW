@@ -8,7 +8,7 @@
         <div class="flex flex-col justify-center text-center lg:text-left px-6 sm:px-8 md:px-12 lg:px-16 py-12 md:py-16 lg:py-20 lg:w-1/2">
 
           <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            <span class="text-secondary">Sloopwerkzaamheden</span>, verwijderingen en terreinontwikkeling in Antwerpen
+            <span class="text-secondary">Sloopwerken</span>, en Tuinaanleg in Antwerpen
           </h1>
 
           <div class="w-20 h-1 bg-gradient-to-r from-secondary to-primary my-6 mx-auto lg:mx-0 rounded-full"></div>
@@ -16,7 +16,7 @@
           <p class="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
             Bij renovatie, herinrichting of volledige afbraak begint alles met professioneel sloopwerk. Onze diensten voor sloopwerkzaamheden en verwijderingen zijn ontworpen om gebouwen, constructies en materialen veilig, gecontroleerd en efficiënt te verwijderen.
           </p>
-          <p class="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
+          <p class="hidden md:block text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
             Wij zorgen ervoor dat elk project correct wordt voorbereid voor de volgende fase, of dat nu renovatie, nieuwbouw of terreinontwikkeling is.
           </p>
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full lg:sticky z-20 top-0 px-6 md:px-10 lg:px-16 py-3 bg-white flex items-center justify-between border-b border-gray-100">
+  <div class="w-full lg:sticky z-20 top-0 px-6 md:px-10 lg:px-16 py-1 bg-white flex items-center justify-between border-b border-gray-100">
 
     <!-- Logo -->
     <div class="flex items-center gap-3">
