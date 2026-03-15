@@ -48,6 +48,12 @@
         </li>
 
         <li>
+          <RouterLink to="/#onze-klanten" class="text-gray-600 hover:text-secondary transition duration-300">
+            Onze Klanten
+          </RouterLink>
+        </li>
+
+        <li>
           <RouterLink to="/#contact" class="text-gray-600 hover:text-secondary transition duration-300">
             Contact
           </RouterLink>
