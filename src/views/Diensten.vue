@@ -32,7 +32,7 @@
                     <h2 class="mt-4 text-4xl md:text-5xl font-bold leading-none bg-gradient-to-r from-gray-900 to-secondary bg-clip-text text-transparent">Speelplaatsen</h2>
                     <p class="mt-6 text-neutral-400 text-lg leading-relaxed">Transformeer uw achtertuin in een magisch speelparadijs waar kinderen sorgeloos kunnen genieten. Veilige, duurzame en creatieve speeltoestellen die jaren plezier bieden.</p>
                     <RouterLink
-                        to="/garden-playgrounds-antwerp" class="inline-block mt-8 px-6 py-3 bg-secondary rounded-sm text-sm font-medium transition-all duration-300 hover:bg-primary text-white">
+                        to="/tuinspeelplaatsen-antwerp" class="inline-block mt-8 px-6 py-3 bg-secondary rounded-sm text-sm font-medium transition-all duration-300 hover:bg-primary text-white">
                         Ontdek meer →
                     </RouterLink>
                 </div>
@@ -49,7 +49,7 @@
                     <p class="mt-6 text-neutral-400 text-lg leading-relaxed">Wij zorgen voor een verzorgde en functionele tuin, het hele jaar door. Van het reinigen en opruimen van tuinen tot volledige tuinaanleg op maat.
                     Wij plaatsen gazon, leggen nieuwe beplanting aan en installeren professionele tuinverlichting voor extra sfeer en veiligheid.</p>
                     <RouterLink
-                        to="/garden-landscaping-antwerp" class="inline-block mt-8 px-6 py-3 bg-secondary rounded-sm text-sm font-medium transition-all duration-300 hover:bg-primary text-white">
+                        to="/tuinaanleg-antwerp" class="inline-block mt-8 px-6 py-3 bg-secondary rounded-sm text-sm font-medium transition-all duration-300 hover:bg-primary text-white">
                         Ontdek meer →
                     </RouterLink>
                 </div>
@@ -80,7 +80,7 @@
                     <h2 class="mt-4 text-4xl md:text-5xl font-bold leading-none bg-gradient-to-r from-gray-900 to-secondary bg-clip-text text-transparent">Tuinafsluitingen</h2>
                     <p class="mt-6 text-neutral-400 text-lg leading-relaxed">Sterke, elegante afsluitingen die uw tuin beschermen en fraaier maken. Van moderne tot klassieke stijlen, wij bieden duurzame oplossingen die jarenlang meegaan.</p>
                     <RouterLink
-                        to="/garden-fencing-antwerp" class="inline-block mt-8 px-6 py-3 bg-secondary rounded-sm text-sm font-medium transition-all duration-300 hover:bg-primary text-white">
+                        to="/tuinafscheiding-antwerp" class="inline-block mt-8 px-6 py-3 bg-secondary rounded-sm text-sm font-medium transition-all duration-300 hover:bg-primary text-white">
                         Ontdek meer →
                     </RouterLink>
                 </div>

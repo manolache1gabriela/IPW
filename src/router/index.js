@@ -27,17 +27,8 @@ const routes = [
     }
   },
   {
-    path: '/garden-fencing-antwerp',
-    name: 'GardenFencing',
-    component: GardenFencing,
-    meta: {
-      title: 'Tuinhekken en sierhekken op maat',
-      description: 'IPWerken biedt op maat gemaakte tuinafsluitingen en sierhekken in Antwerpen die zowel veiligheid als esthetiek bieden. Onze hoogwaardige materialen en vakmanschap zorgen voor duurzame oplossingen die uw tuin beschermen en verfraaien. Of u nu op zoek bent naar een modern, klassiek of uniek ontwerp, wij creëren tuinafsluitingen die perfect passen bij uw stijl en behoeften. Met onze expertise transformeren we uw buitenruimte in een veilige en aantrekkelijke omgeving waar u jarenlang van kunt genieten.'
-    }
-  },
-  {
-    path: '/garden-playgrounds-antwerp',
-    name: 'GardenPlaygrounds',
+    path: '/tuinspeelplaatsen-antwerp',
+    name: 'Tuinspeelplaatsen',
     component: GardenPlaygrounds,
     meta: {
       title: 'Tuinspeelplaatsen en sierhekken op maat',
@@ -45,12 +36,21 @@ const routes = [
     }
   },
   {
-    path: '/garden-landscaping-antwerp',
-    name: 'GardenLandscaping',
+    path: '/tuinaanleg-antwerp',
+    name: 'Tuinaanleg',
     component: GardenLandscaping,
     meta: {
       title: 'Tuinaanleg en tuinonderhoud',
       description: 'IPWerken biedt professionele tuinaanleg en tuinonderhoud in Antwerpen, gericht op het creëren van prachtige en functionele buitenruimtes. Onze experts zorgen voor duurzame oplossingen die uw tuin transformeren en verbeteren, met aandacht voor detail en kwaliteit. Of u nu een kleine tuin heeft of een ruime buitenruimte, wij leveren op maat gemaakte diensten die perfect passen bij uw behoeften en wensen.'
+    }
+  },
+  {
+    path: '/tuinafscheiding-antwerp',
+    name: 'Tuinafscheiding',
+    component: GardenFencing,
+    meta: {
+      title: 'Tuinhekken en sierhekken op maat',
+      description: 'IPWerken biedt op maat gemaakte tuinafsluitingen en sierhekken in Antwerpen die zowel veiligheid als esthetiek bieden. Onze hoogwaardige materialen en vakmanschap zorgen voor duurzame oplossingen die uw tuin beschermen en verfraaien. Of u nu op zoek bent naar een modern, klassiek of uniek ontwerp, wij creëren tuinafsluitingen die perfect passen bij uw stijl en behoeften. Met onze expertise transformeren we uw buitenruimte in een veilige en aantrekkelijke omgeving waar u jarenlang van kunt genieten.'
     }
   },
   {
