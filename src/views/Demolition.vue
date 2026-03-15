@@ -128,17 +128,6 @@
             <!-- image - start -->
             <div
                 class="group relative flex h-full items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-                <img src="../assets/excavator/excavator-5.jpeg" loading="lazy" alt="Graafmachine image" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-
-                <div
-                    class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
-                </div>
-            </div>
-            <!-- image - end -->
-
-            <!-- image - start -->
-            <div
-                class="group relative flex h-full items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
                 <img src="../assets/excavator/excavator-4.jpeg" loading="lazy" alt="Graafmachine image" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                 <div
@@ -150,7 +139,18 @@
             <!-- image - start -->
             <div
                 class="group relative flex h-full items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-                <img src="../assets/excavator/excavator-6.jpeg" loading="lazy" alt="Graafmachine image" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+                <img src="../assets/excavator/excavator-8.jpeg" loading="lazy" alt="Sloopproject image" class="absolute inset-0 h-full w-full object-cover object-top transition duration-200 group-hover:scale-110" />
+
+                <div
+                    class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                </div>
+            </div>
+            <!-- image - end -->
+
+            <!-- image - start -->
+            <div
+                class="group relative flex h-full items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                <img src="../assets/excavator/excavator-5.jpeg" loading="lazy" alt="Graafmachine image" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                 <div
                     class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
@@ -163,7 +163,7 @@
             <!-- image - start -->
             <div
                 class="group relative flex h-full items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-                <img src="../assets/demolition/demolition-6.jpeg" loading="lazy" alt="Sloopproject image" class="absolute inset-0 h-full w-full object-cover object-top transition duration-200 group-hover:scale-110" />
+                <img src="../assets/excavator/excavator-6.jpeg" loading="lazy" alt="Graafmachine image" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                 <div
                     class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
