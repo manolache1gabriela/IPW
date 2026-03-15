@@ -224,10 +224,12 @@
     </section>
 
     <Process/>
+    <Contact/>
   </div>
 </template>
 
 <script setup>
 import Process from '@/components/Process.vue'
+import Contact from '@/components/Contact.vue'
 import heroImage from '../assets/garden-fence/garden-fence-11.jpeg'
 </script>

@@ -33,7 +33,7 @@
                     <p class="mt-6 text-neutral-400 text-lg leading-relaxed">Transformeer uw achtertuin in een magisch speelparadijs waar kinderen sorgeloos kunnen genieten. Veilige, duurzame en creatieve speeltoestellen die jaren plezier bieden.</p>
                     <RouterLink
                         to="/garden-playgrounds-antwerp" class="inline-block mt-8 px-6 py-3 bg-secondary rounded-sm text-sm font-medium transition-all duration-300 hover:bg-primary text-white">
-                        Explore More →
+                        Ontdek meer →
                     </RouterLink>
                 </div>
             </div>
@@ -50,7 +50,7 @@
                     Wij plaatsen gazon, leggen nieuwe beplanting aan en installeren professionele tuinverlichting voor extra sfeer en veiligheid.</p>
                     <RouterLink
                         to="/garden-landscaping-antwerp" class="inline-block mt-8 px-6 py-3 bg-secondary rounded-sm text-sm font-medium transition-all duration-300 hover:bg-primary text-white">
-                        Explore More →
+                        Ontdek meer →
                     </RouterLink>
                 </div>
             </div>
@@ -81,7 +81,7 @@
                     <p class="mt-6 text-neutral-400 text-lg leading-relaxed">Sterke, elegante afsluitingen die uw tuin beschermen en fraaier maken. Van moderne tot klassieke stijlen, wij bieden duurzame oplossingen die jarenlang meegaan.</p>
                     <RouterLink
                         to="/garden-fencing-antwerp" class="inline-block mt-8 px-6 py-3 bg-secondary rounded-sm text-sm font-medium transition-all duration-300 hover:bg-primary text-white">
-                        Explore More →
+                        Ontdek meer →
                     </RouterLink>
                 </div>
             </div>
@@ -97,7 +97,7 @@
                     <p class="mt-6 text-neutral-400 text-lg leading-relaxed">Wij voeren kleine en middelgrote sloopwerken professioneel en veilig uit. Van het afbreken van oude terrassen, tuinhuizen en betonconstructies tot het volledig verwijderen van verhardingen en tuinelementen.</p>
                     <RouterLink
                         to="/demolition-antwerp" class="inline-block mt-8 px-6 py-3 bg-secondary rounded-sm text-sm font-medium transition-all duration-300 hover:bg-primary text-white">
-                        Explore More →
+                        Ontdek meer →
                     </RouterLink>
                 </div>
             </div>
@@ -111,9 +111,9 @@
         </section>
     </div>
 
-
+    <Contact/>
 </template>
 
 <script setup>
-
+import Contact from '@/components/Contact.vue'
 </script>

@@ -23,8 +23,8 @@
 
         <li>
           <RouterLink
-              to="/services" class="text-gray-600 hover:text-secondary transition duration-300 font-semibold flex items-center gap-1" active-class="text-secondary">
-            Services
+              to="/diensten" class="text-gray-600 hover:text-secondary transition duration-300 font-semibold flex items-center gap-1" active-class="text-secondary">
+            Diensten
           </RouterLink>
         </li>
 
@@ -93,7 +93,7 @@
 
     <!-- Home Sections Anchors -->
     <RouterLink to="/#visie" @click="open = false" active-class="underline">Visie</RouterLink>
-    <RouterLink to="/services" @click="open = false" active-class="underline">Services</RouterLink>
+    <RouterLink to="/Diensten" @click="open = false" active-class="underline">Diensten</RouterLink>
     <RouterLink to="/#projecten" @click="open = false">Projecten</RouterLink>
     <RouterLink to="/#overons" @click="open = false">Over Ons</RouterLink>
     <RouterLink to="/#mogelijkheden" @click="open = false">Mogelijkheden</RouterLink>

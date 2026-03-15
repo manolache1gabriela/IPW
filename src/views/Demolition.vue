@@ -1,6 +1,5 @@
 <template>
   <div class="bg-white text-gray-800">
-
     <section class="relative w-full overflow-hidden">
       <div class="flex flex-col-reverse md:flex-row items-center justify-end md:justify-between mx-auto h-screen">
 
@@ -200,10 +199,12 @@
     </section>
 
     <Process/>
+    <Contact/>
   </div>
 </template>
 
 <script setup>
 import Process from '@/components/Process.vue'
+import Contact from '@/components/Contact.vue'
 import heroImage from '../assets/demolari/demolari-1.jpg'
 </script>

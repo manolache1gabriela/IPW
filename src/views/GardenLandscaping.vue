@@ -193,10 +193,12 @@
     </section>
 
     <Process/>
+    <Contact/>
   </div>
 </template>
 
 <script setup>
 import Process from '@/components/Process.vue'
+import Contact from '@/components/Contact.vue'
 import heroImage from '../assets/garden-lights/garden-lights-2.jpeg'
 </script>

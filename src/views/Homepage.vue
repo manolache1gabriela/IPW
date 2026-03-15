@@ -4,6 +4,7 @@
         <Gallery />
         <ProjectPage />
         <why-us />
+        <Contact />
     </div>
 </template>
 
@@ -12,4 +13,5 @@ import Home from '@/components/Home.vue';
 import ProjectPage from '@/components/About.vue';
 import Gallery from '@/components/Gallery.vue';
 import WhyUs from '@/components/WhyUs.vue';
+import Contact from '@/components/Contact.vue';
 </script>

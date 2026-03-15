@@ -4,7 +4,8 @@ import GardenPlaygrounds from '@/views/GardenPlaygrounds.vue'
 import GardenLandscaping from '@/views/GardenLandscaping.vue'
 import Demolition from '@/views/Demolition.vue'
 import Homepage from '@/views/Homepage.vue'
-import Services from '@/views/Services.vue'
+import Services from '@/views/Diensten.vue'
+import NotFound from '@/components/NotFound.vue'
 
 const routes = [
   {
@@ -17,7 +18,7 @@ const routes = [
     }
   },
   {
-    path: '/services',
+    path: '/diensten',
     name: 'Diensten',
     component: Services,
     meta: {
@@ -60,6 +61,11 @@ const routes = [
       title: 'Sloopwerkzaamheden en verwijderingen',
       description: 'IPWerken voert professionele sloopwerkzaamheden uit in Antwerpen, van het afbreken van oude terrassen tot het verwijderen van verhardingen. Onze experts zorgen voor veilige en efficiënte uitvoering van sloopwerkzaamheden, met aandacht voor detail en kwaliteit. Of u nu een kleine tuin heeft of een ruime buitenruimte, wij leveren op maat gemaakte diensten die perfect passen bij uw behoeften en wensen.'
     }
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'NotFound',
+    component: NotFound
   }
 ]
 
