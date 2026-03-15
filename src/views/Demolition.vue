@@ -69,29 +69,6 @@
 
             <!-- image - start -->
             <div
-                class="group relative flex h-full items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
-                <img src="../assets/demolition/demolition-12.jpeg" loading="lazy" alt="Sloopproject image" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-
-                <div
-                    class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
-                </div>
-            </div>
-            <!-- image - end -->
-
-            <!-- image - start -->
-            <div
-                class="group relative flex h-full items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-                <img src="../assets/demolition/demolition-13.jpeg" loading="lazy" alt="Sloopproject image" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-
-                <div
-                    class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
-                </div>
-            </div>
-            <!-- image - end -->
-
-
-            <!-- image - start -->
-            <div
                 class="group relative flex h-full items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
                 <img src="../assets/demolition/demolition-3.jpeg" loading="lazy" alt="Sloopproject image" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
