@@ -96,7 +96,7 @@
                     <h2 class="mt-4 text-4xl md:text-5xl font-bold leading-none bg-gradient-to-r from-gray-900 to-secondary bg-clip-text text-transparent">Sloop en opruimwerken</h2>
                     <p class="mt-6 text-neutral-400 text-lg leading-relaxed">Wij voeren kleine en middelgrote sloopwerken professioneel en veilig uit. Van het afbreken van oude terrassen, tuinhuizen en betonconstructies tot het volledig verwijderen van verhardingen en tuinelementen.</p>
                     <RouterLink
-                        to="/demolition-antwerp" class="inline-block mt-8 px-6 py-3 bg-secondary rounded-sm text-sm font-medium transition-all duration-300 hover:bg-primary text-white">
+                        to="/sloopwerk-antwerp" class="inline-block mt-8 px-6 py-3 bg-secondary rounded-sm text-sm font-medium transition-all duration-300 hover:bg-primary text-white">
                         Ontdek meer →
                     </RouterLink>
                 </div>

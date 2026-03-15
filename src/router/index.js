@@ -54,7 +54,7 @@ const routes = [
     }
   },
   {
-    path: '/demolition-antwerp',
+    path: '/sloopwerk-antwerp',
     name: 'Sloopwerkzaamheden en verwijderingen',
     component: Demolition,
     meta: {
