@@ -1,6 +1,6 @@
 <template>
-<div class="w-full min-h-full md:h-[87vh] md:flex relative">
-    <div class="absolute top-[-11.1%]" id="contact"></div>
+<div class="w-full min-h-screen md:h-[87vh] md:flex relative">
+    <div class="absolute top-[-10%]" id="contact"></div>
     <div
         class="w-full md:w-1/2 bg-secondary flex flex-col justify-center gap-10 py-5 md:py-0 px-5 lg:px-24"
     >

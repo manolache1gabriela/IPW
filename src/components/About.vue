@@ -37,20 +37,9 @@
 							doelen.
 						</p>
 					</div>
-					<!-- <p class=\"\">
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque,
-						non ipsam veritatis ipsum praesentium dolores.
-					</p> -->
-					<!-- <button class=\"w-fit h-fit\">
-						<a
-							href=\"#contact\"
-							class=\"text-secondary uppercase font-semibold border-4 border-secondary hover:border-primary hover:text-text text-xl md:text-base lg:text-xl px-7 md:px-2 xl:px-14 py-2 xl:py-3\">
-							Learn more
-						</a>
-					</button> -->
 				</div>
 			</div>
-			<div class="w-full h-1/5 bg-gray-900 flex justify-center">
+			<div class="w-full h-1/5 bg-gray-900 lg:flex justify-center hidden">
 				<div
 					class="w-1/2 bg-secondary text-white flex flex-col items-center justify-between md:justify-center gap-2 py-6">
 					<h2 class="text-4xl md:text-5xl lg:text-6xl font-bold">75</h2>

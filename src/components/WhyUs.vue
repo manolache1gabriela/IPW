@@ -1,6 +1,6 @@
 <template>
 	<div class="w-full relative bg-gray-100">
-		<div class="absolute top-[-14.2%]" id="mogelijkheden"></div>
+		<div class="absolute top-[-13%]" id="mogelijkheden"></div>
 		<div class="w-full container mx-auto md:flex justify-center items-center">
 			<div class="w-full min-h-fit md:flex justify-evenly items-center px-6 py-[10%] gap-10">
 				<div

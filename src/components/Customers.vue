@@ -6,7 +6,7 @@
         We zijn trots op de tevredenheid van onze klanten. Hier zijn enkele van hun ervaringen met onze diensten:
     </p>
     <div
-        class="mx-auto w-full max-w-4xl justify-center items-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+        class="mx-auto container w-full justify-center items-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
         <a target="_blank" href="https://calamintha.be">
             <img alt="calamintha logo" class="h-40 mx-auto rounded" src="@/assets/clients-logos/calamintha-logo.png">
         </a>

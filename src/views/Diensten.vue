@@ -103,7 +103,7 @@
             </div>
             <!-- Left content -->
             <div class="w-full md:w-1/2 min-h-[50vh] md:h-full relative overflow-hidden group shine-effect">
-                <img src="../assets/demolari/demolari-1.jpg"
+                <img src="../assets/excavator/excavator-1.png"
                      alt="Sloopwerkzaamheden, verwijderingen"
                      class="absolute inset-0 w-full h-full object-cover transition-all duration-1000 group-hover:scale-110 group-hover:rotate-1" />
                 <div class="absolute inset-0 bg-gradient-to-l from-neutral-950/70 to-neutral-950/50 transition-opacity duration-500 group-hover:opacity-0"></div>

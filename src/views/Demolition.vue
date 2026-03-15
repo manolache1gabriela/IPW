@@ -69,8 +69,19 @@
 
             <!-- image - start -->
             <div
-                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-                <img src="../assets/demolari/demolari-3.jpeg" loading="lazy" alt="" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+                class="group relative flex h-full items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                <img src="../assets/demolition/demolition-12.jpeg" loading="lazy" alt="Sloopproject image" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                <div
+                    class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                </div>
+            </div>
+            <!-- image - end -->
+
+            <!-- image - start -->
+            <div
+                class="group relative flex h-full items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                <img src="../assets/demolition/demolition-13.jpeg" loading="lazy" alt="Sloopproject image" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                 <div
                     class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
@@ -81,20 +92,8 @@
 
             <!-- image - start -->
             <div
-                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-                <img src="../assets/demolari/demolari-4.jpeg" loading="lazy" alt="" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-
-                <div
-                    class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
-                </div>
-            </div>
-            <!-- image - end -->
-
-
-            <!-- image - start -->
-            <div
-                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-                <img src="../assets/demolari/demolari-5.jpeg" loading="lazy" alt="" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+                class="group relative flex h-full items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                <img src="../assets/demolition/demolition-3.jpeg" loading="lazy" alt="Sloopproject image" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                 <div
                     class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
@@ -104,8 +103,8 @@
 
             <!-- image - start -->
             <div
-                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
-                <img src="../assets/demolari/demolari-2.jpg" loading="lazy" alt="" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+                class="group relative flex h-full items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                <img src="../assets/demolition/demolition-4.jpeg" loading="lazy" alt="Sloopproject image" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                 <div
                     class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
@@ -115,8 +114,8 @@
 
             <!-- image - start -->
             <div
-                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-                <img src="../assets/demolari/demolari-7.jpeg" loading="lazy" alt="" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+                class="group relative flex h-full items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                <img src="../assets/demolition/demolition-5.jpeg" loading="lazy" alt="Sloopproject image" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                 <div
                     class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
@@ -125,21 +124,11 @@
             <!-- image - end -->
 
 
-            <!-- image - start -->
-            <div
-                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-                <img src="../assets/demolari/demolari-6.jpeg" loading="lazy" alt="" class="absolute inset-0 h-full w-full object-cover object-top transition duration-200 group-hover:scale-110" />
-
-                <div
-                    class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
-                </div>
-            </div>
-            <!-- image - end -->
 
             <!-- image - start -->
             <div
-                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-                <img src="../assets/demolari/demolari-13.jpeg" loading="lazy" alt="" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+                class="group relative flex h-full items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                <img src="../assets/excavator/excavator-5.jpeg" loading="lazy" alt="Graafmachine image" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                 <div
                     class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
@@ -149,8 +138,8 @@
 
             <!-- image - start -->
             <div
-                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-                <img src="../assets/demolari/demolari-12.jpeg" loading="lazy" alt="" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+                class="group relative flex h-full items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                <img src="../assets/excavator/excavator-4.jpeg" loading="lazy" alt="Graafmachine image" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                 <div
                     class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
@@ -158,6 +147,75 @@
             </div>
             <!-- image - end -->
 
+            <!-- image - start -->
+            <div
+                class="group relative flex h-full items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                <img src="../assets/excavator/excavator-6.jpeg" loading="lazy" alt="Graafmachine image" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                <div
+                    class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                </div>
+            </div>
+            <!-- image - end -->
+
+
+
+            <!-- image - start -->
+            <div
+                class="group relative flex h-full items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                <img src="../assets/demolition/demolition-6.jpeg" loading="lazy" alt="Sloopproject image" class="absolute inset-0 h-full w-full object-cover object-top transition duration-200 group-hover:scale-110" />
+
+                <div
+                    class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                </div>
+            </div>
+            <!-- image - end -->
+
+            <!-- image - start -->
+            <div
+                class="group relative flex h-full items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                <img src="../assets/demolition/demolition-2.jpg" loading="lazy" alt="" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                <div
+                    class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                </div>
+            </div>
+            <!-- image - end -->
+
+            <!-- image - start -->
+            <div
+                class="group relative flex h-full items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                <img src="../assets/demolition/demolition-7.jpeg" loading="lazy" alt="Sloopproject image" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                <div
+                    class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                </div>
+            </div>
+            <!-- image - end -->
+
+
+
+            <!-- image - start -->
+            <div
+                class="group relative flex h-full items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                <img src="../assets/excavator/excavator-3.jpeg" loading="lazy" alt="Graafmachine image" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                <div
+                    class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                </div>
+            </div>
+            <!-- image - end -->
+
+            <!-- image - start -->
+            <div
+                class="group relative flex h-full items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                <img src="../assets/excavator/excavator-1.jpeg" loading="lazy" alt="Graafmachine image" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                <div
+                    class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                </div>
+            </div>
+            <!-- image - end -->
         </div>
     </div>
     </section>
@@ -206,5 +264,5 @@
 <script setup>
 import Process from '@/components/Process.vue'
 import Contact from '@/components/Contact.vue'
-import heroImage from '../assets/demolari/demolari-1.jpg'
+import heroImage from '../assets/demolition/demolition-1.jpg'
 </script>
